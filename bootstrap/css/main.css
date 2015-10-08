@@ -1,0 +1,36 @@
+body{
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+#headerImg{
+    width: 100%;
+    position: absolute;
+}
+
+#headerImg img{
+    max-width: 100%;
+}
+
+nav{
+    position: relative;
+    width: 500px;
+    margin: 0 auto;
+    padding-top: 50%;
+    padding-left: 15%;
+}
+
+header nav>a{
+    float: left;
+    padding-right: 100px;
+    text-decoration: none;
+    font-size: 1.4em;
+    font-weight: 400;
+    color: white;
+}
+
+header nav>a:hover{
+    color: red;
+}
