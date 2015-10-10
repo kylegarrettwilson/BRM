@@ -26,18 +26,58 @@ nav a{
 }
 
 
-#container{
-    position: absolute;
-    width: 100%;
+
+
+.container{
+    width: 85%;
+}
+
+
+h2, h4, li{
     text-align: center;
-    margin-top: 50px;
+    list-style-type: none;
 }
 
-#container img{
-    max-width: 25%;
-    position: relative;
-    margin-bottom: 200px;
-    margin-right: 30px;
+
+h2{
+    margin-left: 45px;
 }
 
+
+h4{
+    border-bottom: double black 3px;
+    padding-bottom: 5px;
+    margin-left: 45px;
+
+}
+
+
+img{
+    margin: 25px;
+}
+
+
+
+
+
+@media (max-width: 990px) and (min-width: 768px){
+
+    img{
+        margin-left: 110px;
+    }
+
+}
+
+
+@media (max-width: 768px){
+     h2{
+         font-size: 1.3em;
+         font-weight: 600;
+     }
+    h4{
+        font-size: 1em;
+        font-weight: 500;
+    }
+
+}
 
