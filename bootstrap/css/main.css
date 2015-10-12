@@ -19,9 +19,16 @@ nav{
 
 nav a{
     padding: 40px;
-    font-size: 1.4em;
+    font-size: 1.6em;
     font-weight: 300;
     text-decoration: none;
+    color: white;
+    background: rgba(0,0,0,.4);
+    margin-right: 12px;
+}
+
+nav a:hover{
+    background: rgba(0,0,0,.8);
     color: white;
 }
 
@@ -110,8 +117,19 @@ img:hover {
 }
 
 
+footer, .model-footer{
+    width: 100%;
+}
 
 
+footer img, .model-footer img{
+    width: 30px;
+    margin: 3px;
+}
+
+footer img:hover, .model-footer img:hover{
+    animation: none;
+}
 
 
 
@@ -151,6 +169,10 @@ img:hover {
     }
     img:hover{
         animation: none;
+    }
+
+    nav a{
+        padding: 12px;
     }
 
 }
