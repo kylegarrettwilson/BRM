@@ -175,5 +175,12 @@ footer img:hover, .model-footer img:hover{
         padding: 12px;
     }
 
+    footer img, .model-footer img{
+        width: 40px;
+        margin: 6px;
+
+    }
+
+
 }
 
