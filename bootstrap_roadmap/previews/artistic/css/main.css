@@ -128,6 +128,7 @@ section{
     -webkit-transition: opacity .20s ease-in-out .1s;
     transition: opacity .20s ease-in-out .1s;
     text-decoration: none;
+    border-radius: 12px;
     color: black;
     background-color: rgba(144,144,144,.3);
 }
@@ -146,6 +147,7 @@ section{
     -webkit-transition: opacity .20s ease-in-out .1s;
     transition: opacity .20s ease-in-out .1s;
     text-decoration: none;
+    border-radius: 12px;
     color: black;
     background-color: rgba(144,144,144,.3);
 }
@@ -197,15 +199,37 @@ footer img:hover, .model-footer img:hover{
 @media (max-width: 1500px){
 
     .hov{
-        padding: 250px 0 250px 0;
+        padding: 10px;
         font-size: 80%;
         margin-right: 20px;
     }
 
     .hav{
-        padding: 250px 0 250px 0;
+        padding: 10px;
         font-size: 80%;
         white-space: nowrap;
+    }
+
+
+    .hav:hover{
+        opacity: 1;
+        -webkit-transition: opacity .10s ease-in-out 0s;
+        transition: opacity .10s ease-in-out 0s;
+        border-radius: 12px;
+        color: black;
+        background-color: rgba(144,144,144,.8);
+        text-decoration: underline;
+    }
+
+
+    .hov:hover{
+        opacity: 1;
+        -webkit-transition: opacity .10s ease-in-out 0s;
+        transition: opacity .10s ease-in-out 0s;
+        border-radius: 12px;
+        color: black;
+        background-color: rgba(144,144,144,.8);
+        text-decoration: underline;
     }
 
     .preview_1, .preview_2, .preview_3, .preview_4, .preview_5{
@@ -229,13 +253,13 @@ footer img:hover, .model-footer img:hover{
 
     .hov{
         opacity: 1;
-        padding: 100px 0 100px 0;
+        padding: 10px;
         font-size: 70%;
     }
 
     .hav{
         opacity: 1;
-        padding: 100px 0 100px 0;
+        padding: 10px;
         font-size: 70%;
         white-space: nowrap;
     }
@@ -244,20 +268,22 @@ footer img:hover, .model-footer img:hover{
 
     .hav:hover{
         opacity: 1;
-        -webkit-transition: opacity .30s ease-in-out .1s;
-        transition: opacity .30s ease-in-out .1s;
+        -webkit-transition: opacity .10s ease-in-out 0s;
+        transition: opacity .10s ease-in-out 0s;
+        border-radius: 12px;
         color: black;
-        background-color: rgba(144,144,144,.1);
+        background-color: rgba(144,144,144,.8);
         text-decoration: underline;
     }
 
 
     .hov:hover{
         opacity: 1;
-        -webkit-transition: opacity .30s ease-in-out .1s;
-        transition: opacity .30s ease-in-out .1s;
+        -webkit-transition: opacity .10s ease-in-out 0s;
+        transition: opacity .10s ease-in-out 0s;
+        border-radius: 12px;
         color: black;
-        background-color: rgba(144,144,144,.1);
+        background-color: rgba(144,144,144,.8);
         text-decoration: underline;
     }
 
