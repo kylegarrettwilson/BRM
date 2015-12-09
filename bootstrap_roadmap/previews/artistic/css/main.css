@@ -25,6 +25,7 @@ nav a{
     color: white;
     background: rgba(0,0,0,.4);
     margin-right: 12px;
+    border-radius: 15px;
 }
 
 nav a:hover{
@@ -50,8 +51,8 @@ section{
     display: block;
     width: 100%;
     margin: 0 auto;
-    padding: 25%;
-    font-size: 3em;
+    padding: 22%;
+    font-size: 300%;
     text-align: center;
 }
 
@@ -65,8 +66,8 @@ section{
     display: block;
     width: 100%;
     margin: 0 auto;
-    padding: 25%;
-    font-size: 3em;
+    padding: 22%;
+    font-size: 300%;
     text-align: center;
 }
 
@@ -79,8 +80,8 @@ section{
     display: block;
     width: 100%;
     margin: 0 auto;
-    padding: 25%;
-    font-size: 3em;
+    padding: 22%;
+    font-size: 300%;
     text-align: center;
 }
 
@@ -93,8 +94,8 @@ section{
     display: block;
     width: 100%;
     margin: 0 auto;
-    padding: 25%;
-    font-size: 3em;
+    padding: 22%;
+    font-size: 300%;
     text-align: center;
 }
 
@@ -107,15 +108,15 @@ section{
     display: block;
     width: 100%;
     margin: 0 auto;
-    padding: 25%;
-    font-size: 3em;
+    padding: 22%;
+    font-size: 300%;
     text-align: center;
 }
 
 
 
 .hov{
-    opacity: 1;
+    opacity: .3;
     margin-right: 10px;
     padding: 300px 100px 300px 100px;
     color: black;
@@ -124,32 +125,40 @@ section{
 
 .hov:hover{
     opacity: 1;
-    -webkit-transition: opacity .30s ease-in-out .1s;
-    transition: opacity .30s ease-in-out .1s;
+    -webkit-transition: opacity .20s ease-in-out .1s;
+    transition: opacity .20s ease-in-out .1s;
     text-decoration: none;
     color: black;
-    background-color: rgba(144,144,144,.1);
+    background-color: rgba(144,144,144,.3);
 }
 
 
 .hav{
-    opacity: 1;
+    opacity: .3;
     padding: 300px 80px 300px 80px;
     color: black;
     font-weight: 700;
+    white-space: nowrap;
 }
 
 .hav:hover{
     opacity: 1;
-    -webkit-transition: opacity .30s ease-in-out .1s;
-    transition: opacity .30s ease-in-out .1s;
+    -webkit-transition: opacity .20s ease-in-out .1s;
+    transition: opacity .20s ease-in-out .1s;
     text-decoration: none;
     color: black;
-    background-color: rgba(144,144,144,.1);
+    background-color: rgba(144,144,144,.3);
 }
 
 
 
+h1{
+    font-size: 3.4em;
+    font-weight: 100;
+    margin-left: 20%;
+    margin-top: 100px;
+    text-decoration: underline;
+}
 
 
 
@@ -175,3 +184,184 @@ footer img, .model-footer img{
 footer img:hover, .model-footer img:hover{
     animation: none;
 }
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 1500px){
+
+    .hov{
+        padding: 250px 0 250px 0;
+        font-size: 80%;
+        margin-right: 20px;
+    }
+
+    .hav{
+        padding: 250px 0 250px 0;
+        font-size: 80%;
+        white-space: nowrap;
+    }
+
+    .preview_1, .preview_2, .preview_3, .preview_4, .preview_5{
+        background-size: 80% 80%;
+        padding: 30%;
+    }
+
+    h1{
+        margin-left: 15%;
+        font-size: 3em;
+    }
+}
+
+
+
+
+
+@media (max-width: 1000px) and (min-width: 768px){
+
+
+
+    .hov{
+        opacity: 1;
+        padding: 100px 0 100px 0;
+        font-size: 70%;
+    }
+
+    .hav{
+        opacity: 1;
+        padding: 100px 0 100px 0;
+        font-size: 70%;
+        white-space: nowrap;
+    }
+
+
+
+    .hav:hover{
+        opacity: 1;
+        -webkit-transition: opacity .30s ease-in-out .1s;
+        transition: opacity .30s ease-in-out .1s;
+        color: black;
+        background-color: rgba(144,144,144,.1);
+        text-decoration: underline;
+    }
+
+
+    .hov:hover{
+        opacity: 1;
+        -webkit-transition: opacity .30s ease-in-out .1s;
+        transition: opacity .30s ease-in-out .1s;
+        color: black;
+        background-color: rgba(144,144,144,.1);
+        text-decoration: underline;
+    }
+
+
+
+    .preview_1, .preview_2, .preview_3, .preview_4, .preview_5{
+        background-size: 80% 80%;
+        padding: 27.5%;
+    }
+
+
+    nav a{
+        padding: 12px;
+    }
+
+    footer img, .model-footer img{
+        width: 40px;
+        margin: 6px;
+
+    }
+
+
+}
+
+
+@media (max-width: 768px){
+
+
+
+
+
+    .hov{
+        opacity: 1;
+        padding: 3px 0 3px 0;
+        font-size: 70%;
+    }
+
+    .hav{
+        width: 1%;
+        padding: 3px 0 3px 0;
+        opacity: 1;
+        font-size: 70%;
+        white-space: nowrap;
+        margin-right: 16px;
+
+
+    }
+
+
+
+    .hav:hover{
+        opacity: 1;
+        -webkit-transition: opacity .10s ease-in-out 0s;
+        transition: opacity .10s ease-in-out 0s;
+        border-radius: 12px;
+        color: black;
+        background-color: rgba(144,144,144,.8);
+        text-decoration: underline;
+    }
+
+
+    .hov:hover{
+        opacity: 1;
+        -webkit-transition: opacity .10s ease-in-out 0s;
+        transition: opacity .10s ease-in-out 0s;
+        border-radius: 12px;
+        color: black;
+        background-color: rgba(144,144,144,.8);
+        text-decoration: underline;
+    }
+
+
+
+    .preview_1, .preview_2, .preview_3, .preview_4, .preview_5{
+        background-size: 100% 100%;
+        padding: 29%;
+        text-align: center;
+    }
+
+    h1{
+        font-size: 2.2em;
+        margin-left: 10px;
+    }
+
+
+    nav a{
+        padding: 12px;
+    }
+
+    footer img, .model-footer img{
+        width: 40px;
+        margin: 6px;
+
+    }
+
+
+}
+
+
+
+
+
+
+
+
+
+

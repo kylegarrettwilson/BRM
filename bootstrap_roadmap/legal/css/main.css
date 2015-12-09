@@ -25,6 +25,7 @@ nav a{
     color: white;
     background: rgba(0,0,0,.4);
     margin-right: 12px;
+    border-radius: 15px;
 }
 
 nav a:hover{
@@ -81,4 +82,44 @@ footer img, .model-footer img{
 footer img:hover, .model-footer img:hover{
     animation: none;
 }
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 768px){
+
+    nav a{
+        padding: 12px;
+    }
+
+    footer img, .model-footer img{
+        width: 40px;
+        margin: 6px;
+
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
