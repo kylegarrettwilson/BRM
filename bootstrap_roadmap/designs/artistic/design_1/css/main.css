@@ -34,6 +34,48 @@ nav a:hover{
 }
 
 
+#top_section{
+    position: relative;
+
+}
+
+
+
+
+
+
+
+
+aside{
+    float: left;
+    width: 60%;
+    padding: 50px 20px 0 20px;
+}
+
+
+aside img{
+    max-width: 100%;
+}
+
+#container{
+    float: left;
+}
+
+#retain{
+    margin: 0 auto;
+    padding: 20px;
+}
+
+
+
+.btn{
+    clear: both;
+    overflow: hidden;
+}
+
+
+
+
 
 
 
