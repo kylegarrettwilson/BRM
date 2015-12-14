@@ -85,6 +85,11 @@ nav a:hover{
 }
 
 
+p, .table-responsive{
+    font-size: 1.2em;
+}
+
+
 
 
 
@@ -94,7 +99,7 @@ nav a:hover{
 
  #retain article>p{
     width: 400px;
-     font-size: 1.2em;
+     font-size: 1.4em;
      padding-top: 12px;
      font-weight: 400;
 
@@ -237,7 +242,24 @@ footer img:hover, .model-footer img:hover{
 
 
 
+@media only screen and (min-width: 2200px){
 
+    #picture{
+        width: 50%;
+    }
+
+    body{
+        margin-left:auto;
+        margin-right:auto;
+        width: 2100px;
+    }
+
+    #second_half>section>h1{
+        font-size: 3.4em;
+        margin-left: 32px;
+    }
+
+}
 
 
 
@@ -272,6 +294,11 @@ footer img:hover, .model-footer img:hover{
         font-weight: 400;
         margin-left: 10%;
 
+    }
+
+    #retain>.table-responsive{
+        width: 50%;
+        margin: 0 auto;
     }
 
 
