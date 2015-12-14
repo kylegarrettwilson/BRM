@@ -57,27 +57,32 @@ nav a:hover{
 #top_section{
     width: 100%;
     margin: 0 auto;
+    display: block;
 }
 
 #retain{
     width: 30%;
-    float: left;
     margin: 0 12px 0 12px;
+    float: left;
 }
+
 
 #picture{
     width: 60%;
     float: left;
-    margin: 30px 12px 0 80px;
+    margin: 0 12px 0 80px;
 }
 
 #picture img{
     max-width: 100%;
 }
 
-#picture>a{
-}
 
+#retain>h1{
+    font-weight: 700;
+    font-size: 400%;
+
+}
 
 
 
@@ -89,14 +94,17 @@ nav a:hover{
 
  #retain article>p{
     width: 400px;
+     font-size: 1.2em;
+     padding-top: 12px;
+     font-weight: 400;
+
 }
 
 
-#payment p{
-    font-size: .87em;
-    width: 300px;
-    padding: 3px 0 20px 0;
-}
+form{
+    margin-top: 30px;
+ }
+
 
 
 
@@ -127,11 +135,22 @@ nav a:hover{
 
 
 #second_half{
-    width: 55%;
+    width: 80%;
     position: relative;
-    margin: 20% 0 0 7%;
+    margin: 0 auto;
+    padding-top: 150px;
+    text-align: center;
 }
 
+#second_half>section>h1{
+    font-weight: 400;
+}
+
+
+#second_half>section>h1>a{
+    margin-left: 22px;
+
+}
 
 
 #usability{
@@ -140,8 +159,14 @@ nav a:hover{
     margin-bottom: 10px;
 }
 
+#usability>h2{
+    font-weight: 400;
+}
+
 #usability .table-responsive{
     width: 40%;
+    text-align: center;
+    margin: 0 auto;
 }
 
 
@@ -207,22 +232,99 @@ footer img:hover, .model-footer img:hover{
 
 
 
-@media only screen  and (min-width : 1824px) {
-    /* Styles */
-}
-
-@media only screen  and (min-width : 1224px) {
-    /* Styles */
-}
 
 
-@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
-    /* Styles */
+
+@media only screen and (min-width : 768px) and (max-width : 1200px) {
+
+
+    body{
+        text-align: center;
+    }
+
+    #picture{
+        float: none;
+        width: 80%;
+        display: block;
+        margin-left: 10%;
+        margin-top: 32px;
+    }
+
+    #retain{
+        float: none;
+        display: block;
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    #retain article>p{
+        width: 80%;
+        font-size: 1.2em;
+        padding-top: 12px;
+        font-weight: 400;
+        margin-left: 10%;
+
+    }
+
+
+    #second_half{
+        padding-top: 30px;
+    }
+
 }
+
+
+
+
 
 
 
 @media (max-width: 768px){
+
+
+
+    body{
+        text-align: center;
+    }
+
+    #picture{
+        float: none;
+        width: 100%;
+        display: block;
+        margin: 22px 0 0 0;
+        padding: 0;
+    }
+
+    #retain{
+        float: none;
+        display: block;
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    #retain article>p{
+        width: 80%;
+        font-size: 1.2em;
+        padding-top: 12px;
+        font-weight: 400;
+        margin-left: 10%;
+
+    }
+
+
+    #second_half{
+        padding-top: 30px;
+    }
+
+
+    #usability>.table-responsive{
+        width: 100%;
+    }
+
+
+    iframe{
+        display: none;
+    }
 
     nav a{
         padding: 12px;
@@ -237,10 +339,6 @@ footer img:hover, .model-footer img:hover{
 
 
 
-
-@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
-    /* Styles */
-}
 
 
 
