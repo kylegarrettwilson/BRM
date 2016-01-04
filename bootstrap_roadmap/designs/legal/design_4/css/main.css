@@ -48,20 +48,20 @@ nav a:hover{
 #top_section{
     width: 100%;
     margin: 0 auto;
-    display: block;
 }
 
 #retain{
-    width: 30%;
-    margin: 0 12px 0 12px;
-    float: left;
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
 }
 
 
 #picture{
-    width: 50%;
-    float: left;
-    margin: 0 12px 0 190px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
 }
 
 #picture img{
@@ -80,16 +80,20 @@ p, .table-responsive{
     font-size: 1.2em;
 }
 
+.table{
+    width: 50%;
+    margin: 0 auto;
+}
 
-
-
-
-
-
+#retain>article{
+    width: 100%;
+    text-align: center;
+    margin-left: 19.6%;
+}
 
 
  #retain article>p{
-    width: 400px;
+     width: 60%;
      font-size: 1.4em;
      padding-top: 12px;
      font-weight: 400;
@@ -98,7 +102,9 @@ p, .table-responsive{
 
 
 form{
-    margin-top: 30px;
+    margin: 0 auto;
+    text-align: center;
+    width: 425px;
  }
 
 
@@ -199,28 +205,6 @@ footer img:hover, .model-footer img:hover{
 
 
 
-@media only screen and (min-width: 2200px){
-
-    #picture{
-        width: 50%;
-        margin: 0 12px 0 190px;
-    }
-
-    body{
-        margin-left:auto;
-        margin-right:auto;
-        width: 2100px;
-    }
-
-    #second_half>section>h1{
-        font-size: 3.4em;
-        margin-left: 32px;
-    }
-
-}
-
-
-
 
 
 @media only screen and (min-width : 768px) and (max-width : 1800px) {
@@ -239,7 +223,6 @@ footer img:hover, .model-footer img:hover{
     }
 
     #retain{
-        float: none;
         display: block;
         width: 80%;
         margin: 0 auto;
@@ -254,8 +237,13 @@ footer img:hover, .model-footer img:hover{
 
     }
 
+    #retain>article{
+        width: 100%;
+        margin-left: 0;
+    }
+
     #retain>.table-responsive{
-        width: 50%;
+        width: 80%;
         margin: 0 auto;
     }
 
@@ -271,6 +259,18 @@ footer img:hover, .model-footer img:hover{
     }
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -295,11 +295,11 @@ footer img:hover, .model-footer img:hover{
     }
 
     #retain{
-        float: none;
         display: block;
         width: 80%;
         margin: 0 auto;
     }
+
 
     #retain article>p{
         width: 80%;
@@ -309,6 +309,24 @@ footer img:hover, .model-footer img:hover{
         margin-left: 10%;
 
     }
+
+    #retain>article{
+        width: 100%;
+        margin-left: 0;
+    }
+
+
+
+    .table-responsive{
+        margin: 0 auto;
+    }
+
+
+
+    form{
+        text-align: center;
+    }
+
 
 
     #second_half{
