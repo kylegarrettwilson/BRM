@@ -92,11 +92,6 @@ p, .table-responsive{
 }
 
 
-
-
-
-
-
  #retain article>p{
      width: 60%;
      font-size: 1.4em;
@@ -228,7 +223,6 @@ footer img:hover, .model-footer img:hover{
     }
 
     #retain{
-        float: none;
         display: block;
         width: 80%;
         margin: 0 auto;
@@ -301,21 +295,24 @@ footer img:hover, .model-footer img:hover{
     }
 
     #retain{
-        float: none;
         display: block;
         width: 80%;
         margin: 0 auto;
     }
+    
 
     #retain article>p{
         width: 80%;
         font-size: 1.2em;
         padding-top: 12px;
         font-weight: 400;
-        margin-right: 44px;
-        padding-right: 2%;
-        text-align: center;
+        margin-left: 10%;
 
+    }
+
+    #retain>article{
+        width: 100%;
+        margin-left: 0;
     }
 
 
