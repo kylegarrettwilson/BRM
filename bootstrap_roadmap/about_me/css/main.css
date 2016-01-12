@@ -35,6 +35,19 @@ nav a:hover{
 
 
 
+article{
+    width: 80%;
+    margin: 0 auto;
+    padding: 22px 0 0 0;
+
+}
+
+article img{
+    max-width: 40%;
+}
+
+
+
 
 
 
