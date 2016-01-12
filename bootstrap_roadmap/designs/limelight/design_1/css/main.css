@@ -1,8 +1,6 @@
 body{
     width: 100%;
     font-family: 'Roboto', sans-serif;
-    margin-left:auto;
-    margin-right:auto;
 }
 
 
@@ -174,6 +172,7 @@ footer, .model-footer{
     width: 80%;
     margin: 0 auto;
     padding-top: 100px;
+
 }
 
 
@@ -187,6 +186,34 @@ footer img:hover, .model-footer img:hover{
 }
 
 
+
+
+
+
+
+
+/* modal */
+
+#mask{
+    position:absolute; /* important */
+    top:0; /* start from top */
+    left:0; /* start from left */
+    height:100%; /* cover the whole page */
+    width:100%;  /* cover the whole page */
+    display:none; /* don't show it '*/
+
+    /* styling bellow */
+    background-color: black;
+}
+
+.modal_window{
+    position:absolute; /* important so we can position it on center later */
+    display:none; /* don't show it */
+
+    /* styling bellow */
+    color:white;
+    font-size: 1.3em;
+}
 
 
 
@@ -253,9 +280,7 @@ footer img:hover, .model-footer img:hover{
     }
 
     footer{
-        width: 300px;
-        margin: 0 auto;
-        padding-right: 14px;
+        text-align: left;
     }
 
 }
