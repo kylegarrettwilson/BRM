@@ -12,9 +12,6 @@ header{
 }
 
 
-#header2{
-    margin-top: 100px;
-}
 
 
 nav{
@@ -55,32 +52,46 @@ h2, h4, li{
 
 
 h2{
-    margin-left: 45px;
+    margin-left: 10px;
 }
 
 
 h3{
-    font-size: 2em;
+    font-size: 1.5em;
     text-align: center;
-    border-bottom: double black 3px;
     padding-bottom: 5px;
+    margin-left: 10px;
 }
 
 
 h4{
-    border-bottom: double black 3px;
+    border-bottom: solid black 3px;
     padding-bottom: 5px;
-    margin-left: 45px;
+    margin-left: 10px;
 
 }
 
+li{
+    margin-right: 30px;
+}
 
 img{
-    margin: 25px;
+    margin-top: 32px;
 }
 
 
 
+#additional{
+    width: 85%;
+    margin: 0 auto;
+    padding-top: 100px;
+    text-align: center;
+}
+
+#header2{
+    font-size: 1.3em;
+    text-align: center;
+}
 
 
 
@@ -134,7 +145,9 @@ img:hover {
 
 
 footer, .model-footer{
-    width: 100%;
+    padding-top: 100px;
+    width: 80%;
+    margin: 0 auto;
 }
 
 
@@ -160,27 +173,34 @@ footer img:hover, .model-footer img:hover{
 
 
 
-
 @media (max-width: 990px) and (min-width: 768px){
-
-    img{
-        margin-left: 110px;
-    }
 
     img:hover{
         animation: none;
     }
 
+
 }
 
 
 @media (max-width: 768px){
+
+
      h2{
-         font-size: 1.3em;
+         width: 300px;
+         text-align: center;
          font-weight: 600;
+         margin-left: 30px;
      }
     h4{
-        font-size: 1em;
+        width: 300px;
+        text-align: center;
+        font-weight: 500;
+        margin-left: 30px;
+    }
+    li{
+        width: 300px;
+        text-align: center;
         font-weight: 500;
     }
     img:hover{
@@ -196,6 +216,11 @@ footer img:hover, .model-footer img:hover{
         margin: 6px;
 
     }
+
+    #additional{
+        margin-left: 30px;
+    }
+
 
 
 }
