@@ -55,7 +55,7 @@ nav a:hover{
 
 h1{
     text-align: center;
-    margin-top: 100px;
+    margin-top: 50px;
     font-weight: 300;
     font-size: 800%;
 }
@@ -63,7 +63,10 @@ h1{
 
 
 
-
+#checkout{
+    text-align: center;
+    margin: 0 auto;
+}
 
 
 
