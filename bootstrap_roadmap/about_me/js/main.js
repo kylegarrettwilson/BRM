@@ -5,3 +5,14 @@ $( "#image" ).click(function() {
 $("#bio").click(function(){
     $( "#bio" ).hide( "slow");
 });
+
+
+
+
+$("#image").mouseover(function() {
+    $("#image").css("background-image", "url(images/about_me2.jpg)");
+});
+
+$("#image").mouseout(function() {
+    $("#image").css("background-image", "url(images/about_me.jpg)");
+});

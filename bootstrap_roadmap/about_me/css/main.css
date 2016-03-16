@@ -26,6 +26,8 @@ nav a{
     background: rgba(0,0,0,.4);
     margin-right: 12px;
     border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
 }
 
 nav a:hover{
@@ -38,22 +40,61 @@ nav a:hover{
 
 
 
-
-
 #image{
+    width: 80%;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    border-radius: 25px;
     background-image: url(../images/about_me.jpg);
     background-repeat: no-repeat;
     background-position: center;
-    width: 80%;
-    height: 700px;
+    background-size: 100%, 100%;
+    padding: 10% 0 40% 0;
     margin: 0 auto;
+    margin-top: 20px;
 
 }
+
+
+#image2{
+    display: none;
+    width: 80%;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    border-radius: 25px;
+    background-image: url(../images/about_me2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%, 100%;
+    padding: 10% 0 40% 0;
+    margin: 0 auto;
+    margin-top: 20px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 #bio{
     display: none;
 }
+
+
 
 
 
