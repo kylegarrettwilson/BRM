@@ -35,15 +35,24 @@ nav a:hover{
 
 
 
-article{
+
+
+
+
+
+#image{
+    background-image: url(../images/about_me.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
     width: 80%;
+    height: 700px;
     margin: 0 auto;
-    padding: 22px 0 0 0;
 
 }
 
-article img{
-    max-width: 40%;
+
+#bio{
+    display: none;
 }
 
 
