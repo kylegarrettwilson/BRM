@@ -16,3 +16,4 @@ $("#image").mouseover(function() {
 $("#image").mouseout(function() {
     $("#image").css("background-image", "url(images/about_me.jpg)");
 });
+

@@ -62,7 +62,7 @@ h1{
     text-align: center;
     margin-top: 50px;
     font-weight: 300;
-    font-size: 600%;
+    font-size: 500%;
 }
 
 
@@ -71,6 +71,14 @@ h1{
 #checkout{
     text-align: center;
     margin: 0 auto;
+}
+
+
+
+article{
+    width: 60%;
+    margin: 0 auto;
+    padding-top: 25px;
 }
 
 

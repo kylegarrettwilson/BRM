@@ -84,7 +84,12 @@ nav a:hover{
 
 
 
-
+h1{
+    font-size: 5em;
+    font-weight: 100;
+    text-align: center;
+    padding-bottom: 20px;
+}
 
 
 
@@ -92,8 +97,22 @@ nav a:hover{
 
 #bio{
     display: none;
+    width: 60%;
+    margin: 0 auto;
+    font-size: 1.3em;
+    font-weight: 300;
+    padding: 12px 0 12px 0;
 }
 
+
+.signature{
+    padding-top: 100px;
+    width: 40%;
+}
+
+.signature>img{
+    max-width: 100%;
+}
 
 
 
