@@ -1,17 +1,248 @@
 <!DOCTYPE html>
-<html>
-<head lang="en">
-    <meta charset="UTF-8">
-    <title>How It Works</title>
+<html class="full" lang="en">
+<!-- Make sure the <html> tag is set to the .full CSS class. Change the background image in the full.css file. -->
 
-    <link href="css/bootstrap-theme.min.css" rel="stylesheet" type="text/css">
-    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
-    <link href="css/main.css" rel="stylesheet" type="text/css">
+<head>
 
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>The Big Picture - Start Bootstrap Template</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/the-big-picture.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
 
 </head>
+
+
 <body>
 
+    <!-- Navigation -->
+    <nav class="navbar navbar-inverse navbar-fixed-bottom" role="navigation">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">Welcome</a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a href="#about">About</a>
+                    </li>
+                    <li>
+                        <a href="#services">Services</a>
+                    </li>
+                    <li>
+                        <a href="#team">Team</a>
+                    </li>
+                    <li>
+                        <a href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+
+
+
+
+
+
+    <!-- Page Content -->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 col-sm-12">
+                <img src="images/logo.png">
+            </div>
+        </div>
+        <!-- /.row -->
+    </div>
+
+
+
+
+
+
+    <!-- About Section -->
+    <section id="about" class="container content-section text-center">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2">
+                <h2>About Us</h2>
+                <p>
+                    This is a great place to explain who you are! Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Quisque pharetra lacus justo, a aliquet eros fermentum eu. Curabitur pretium semper rutrum. Maecenas
+                    venenatis at ligula sit amet sagittis. Fusce vel enim a enim tincidunt consectetur. Curabitur
+                    efficitur nulla felis, id maximus leo rhoncus quis. Duis sit amet dolor ac lorem laoreet tempus vel
+                    id dui. Etiam tincidunt dolor in euismod convallis. Nulla hendrerit ex sit amet sem luctus, ac
+                    eleifend urna blandit. Fusce at nisi quis urna vestibulum vehicula. Nullam gravida porttitor elit,
+                    sed ultricies arcu molestie eget.
+                </p>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+    <!-- Services -->
+    <!-- The circle icons use Font Awesome's stacked icon classes. For more information, visit http://fontawesome.io/examples/ -->
+    <section id="services" class="services bg-primary">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-lg-10 col-lg-offset-1">
+                    <h2>Our Services</h2>
+                    <hr class="small">
+                    <div class="row">
+
+
+                        <!-- Services One -->
+
+
+                        <div class="col-md-3 col-sm-6">
+                            <div class="service-item">
+                                <span class="fa-stack fa-4x">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-anchor fa-stack-1x text-primary"></i>
+                            </span>
+                                <h4>
+                                    <strong>Business Law</strong>
+                                </h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                <button id="opener_1" href="#" class="btn btn-light">Learn More</button>
+                            </div>
+
+                            <div id="dialog_1">
+                                <p>
+                                    Quis, Contracts, Collections eget erat. Fusce et Litigation felis, eu varius lacus.
+                                    Ut vel finibus mi. Suspendisse et sollicitudin turpis. Sed id Patent Law lorem.
+                                    Vestibulum pellentesque erat eu nunceleifend, quis elementum leo varius.
+                                    Etiam cursus tristique leo id vulputate.
+                                </p>
+                            </div>
+
+                        </div>
+
+
+
+
+                        <!-- Service Two -->
+
+                        <div class="col-md-3 col-sm-6">
+                            <div class="service-item">
+                                <span class="fa-stack fa-4x">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-briefcase fa-stack-1x text-primary"></i>
+                            </span>
+                                <h4>
+                                    <strong>Civil Rights</strong>
+                                </h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                <button id="opener_2" href="#" class="btn btn-light">Learn More</button>
+                            </div>
+
+                            <div id="dialog_2">
+                                <p>
+                                    Quis, Contracts, Collections eget erat. Fusce et Litigation felis, eu varius lacus.
+                                    Ut vel finibus mi. Suspendisse et sollicitudin turpis. Sed id Patent Law lorem.
+                                    Vestibulum pellentesque erat eu nunceleifend, quis elementum leo varius.
+                                    Etiam cursus tristique leo id vulputate.
+                                </p>
+                            </div>
+
+                        </div>
+
+
+
+                        <!-- Service Three -->
+
+                        <div class="col-md-3 col-sm-6">
+                            <div class="service-item">
+                                <span class="fa-stack fa-4x">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-bar-chart-o fa-stack-1x text-primary"></i>
+                            </span>
+                                <h4>
+                                    <strong>Criminal Defense</strong>
+                                </h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                <button id="opener_3" href="#" class="btn btn-light">Learn More</button>
+                            </div>
+
+                            <div id="dialog_3">
+                                <p>
+                                    Quis, Contracts, Collections eget erat. Fusce et Litigation felis, eu varius lacus.
+                                    Ut vel finibus mi. Suspendisse et sollicitudin turpis. Sed id Patent Law lorem.
+                                    Vestibulum pellentesque erat eu nunceleifend, quis elementum leo varius.
+                                    Etiam cursus tristique leo id vulputate.
+                                </p>
+                            </div>
+
+                        </div>
+
+
+
+                        <!-- Service Four -->
+
+                        <div class="col-md-3 col-sm-6">
+                            <div class="service-item">
+                                <span class="fa-stack fa-4x">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-gavel fa-stack-1x text-primary"></i>
+                            </span>
+                                <h4>
+                                    <strong>Personal Injury</strong>
+                                </h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                <button id="opener_4" href="#" class="btn btn-light">Learn More</button>
+                            </div>
+
+                            <div id="dialog_4">
+                                <p>
+                                    Quis, Contracts, Collections eget erat. Fusce et Litigation felis, eu varius lacus.
+                                    Ut vel finibus mi. Suspendisse et sollicitudin turpis. Sed id Patent Law lorem.
+                                    Vestibulum pellentesque erat eu nunceleifend, quis elementum leo varius.
+                                    Etiam cursus tristique leo id vulputate.
+                                </p>
+                            </div>
+
+                        </div>
+
+
+                    </div>
+                    <!-- /.row (nested) -->
+                </div>
+                <!-- /.col-lg-10 -->
+            </div>
+            <!-- /.row -->
+        </div>
+        <!-- /.container -->
+    </section>
 
 
 
@@ -23,16 +254,68 @@
 
 
 
+    <!-- Team Members Row -->
+
+    <div id="team">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-sm-6 text-center">
+                    <img class="img-circle img-responsive img-center" src="images/person_one.jpg" alt="">
+                    <h2 style="color: white">Tyler Smith</h2>
+                    <h4>Job Title</h4>
+                    <p>What does this team member to? Keep it short!</p>
+                </div>
+                <div class="col-lg-4 col-sm-6 text-center">
+                    <img class="img-circle img-responsive img-center" src="images/person_two.jpg" alt="">
+                    <h2 style="color: white">Jan Dodge</h2>
+                    <h4>Job Title</h4>
+                    <p>What does this team member to? Keep it short!</p>
+                </div>
+                <div class="col-lg-4 col-sm-6 text-center">
+                    <img class="img-circle img-responsive img-center" src="images/person_three.jpg" alt="">
+                    <h2 style="color: white">Ryan Nicks</h2>
+                    <h4>Job Title</h4>
+                    <p>What does this team member to? Keep it short!</p>
+                </div>
+                <div class="col-lg-4 col-sm-6 text-center">
+                    <img class="img-circle img-responsive img-center" src="images/person_four.jpg" alt="">
+                    <h2 style="color: white">Rachael Cole</h2>
+                    <h4>Job Title</h4>
+                    <p>What does this team member to? Keep it short!</p>
+                </div>
+                <div class="col-lg-4 col-sm-6 text-center">
+                    <img class="img-circle img-responsive img-center" src="images/person_five.jpg" alt="">
+                    <h2 style="color: white">Jack Richards</h2>
+                    <h4>Job Title</h4>
+                    <p>What does this team member to? Keep it short!</p>
+                </div>
+                <div class="col-lg-4 col-sm-6 text-center">
+                    <img class="img-circle img-responsive img-center" src="images/person_six.jpg" alt="">
+                    <h2 style="color: white">John Weeks</h2>
+                    <h4>Job Title</h4>
+                    <p>What does this team member to? Keep it short!</p>
+                </div>
+            </div>
+        </div>
+    </div>
 
 
 
 
 
 
-<script type="text/javascript" src="js/bootstrap.min.js"></script>
-<script type="text/javascript" src="js/main.js"></script>
-<script type="text/javascript" src="jquery/jquery.js"></script>
 
+
+    <!-- /.container -->
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <script src="js/main.js"></script>
 
 </body>
+
 </html>
