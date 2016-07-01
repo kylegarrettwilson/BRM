@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< Updated upstream
     <list default="true" id="3845e1e5-a5cc-48c8-9023-729b3609d2b4" name="Default" comment="">
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/business_websites/legal/template_one/js/main.js" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/bootstrap_roadmap/additional_services/social_media_inte/css/bootstrap-theme.css" afterPath="" />
@@ -54,6 +55,9 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/business_websites/legal/template_three/js/bootstrap.js" afterPath="$PROJECT_DIR$/business_websites/legal/template_three/js/bootstrap.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/business_websites/legal/template_three/js/bootstrap.min.js" afterPath="$PROJECT_DIR$/business_websites/legal/template_three/js/bootstrap.min.js" />
     </list>
+=======
+    <list default="true" id="3845e1e5-a5cc-48c8-9023-729b3609d2b4" name="Default" comment="" />
+>>>>>>> Stashed changes
     <ignored path="BRM.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -72,6 +76,7 @@
     <favorites_list name="BRM" />
   </component>
   <component name="FileEditorManager">
+<<<<<<< Updated upstream
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
@@ -80,6 +85,9 @@
         <option value="JavaScript File" />
       </list>
     </option>
+=======
+    <leaf />
+>>>>>>> Stashed changes
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -249,18 +257,25 @@
       <created>1465257531326</created>
       <option name="number" value="Default" />
       <updated>1465257531326</updated>
-      <workItem from="1465274697531" duration="9742000" />
+      <workItem from="1465274697531" duration="9980000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9742000" />
+    <option name="totallyTimeSpent" value="9980000" />
   </component>
   <component name="ToolWindowManager">
+<<<<<<< Updated upstream
     <frame x="139" y="23" width="1485" height="1019" extended-state="1" />
     <editor active="false" />
     <layout>
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24915825" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+=======
+    <frame x="41" y="23" width="1239" height="777" extended-state="0" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24939467" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+>>>>>>> Stashed changes
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
