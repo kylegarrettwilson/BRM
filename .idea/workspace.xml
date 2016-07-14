@@ -266,7 +266,11 @@
   </component>
   <component name="ToolWindowManager">
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     <frame x="139" y="23" width="1485" height="1019" extended-state="1" />
+=======
+    <frame x="139" y="23" width="1485" height="1019" extended-state="0" />
+>>>>>>> Stashed changes
     <editor active="false" />
     <layout>
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24915825" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
