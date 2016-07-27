@@ -18,7 +18,7 @@ $( document ).ready(function() {
 
 function scaleVideoContainer() {
 
-    var height = $(window).height() - 321;    // change the 320 number to affect black space around video
+    var height = $(window).height();    // change the 320 number to affect black space around video
     var unitHeight = parseInt(height) + 'px';
     $('.homepage-hero-module').css('height',unitHeight);
 

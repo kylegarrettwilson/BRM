@@ -4,6 +4,10 @@ body {
     width: 100%;
 }
 
+body {
+    font-family: "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
 .homepage-hero-module {
     border-right: none;
     border-left: none;
@@ -49,11 +53,8 @@ body {
 }
 
 
-.overlay{
-    position: absolute;
-    top: 30%;
-    left: 40%;
-    color: white;
+.logo{
+    font-size: 2em;
 }
 
 
