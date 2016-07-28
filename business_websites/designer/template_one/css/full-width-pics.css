@@ -57,8 +57,16 @@ body {
     font-size: 2em;
 }
 
+#title{
+    position: absolute;
+    width: 100%;
+    top: 100px;
+    background: rgba(0, 0, 0, .1);
+}
 
-
+#title .img-responsive{
+    margin: 0 auto;
+}
 
 
 
