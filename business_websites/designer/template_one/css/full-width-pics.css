@@ -107,6 +107,24 @@ body {
     height: 450px;
 }
 
+.image-bg-fixed-height-2 {
+    background: url(../images/location.jpg) no-repeat center center scroll;
+    height: 450px;
+}
+
+.image-bg-fixed-height-3 {
+    background: url(../images/contact.jpg) no-repeat center center scroll;
+    height: 450px;
+}
+
+
+
+
+
+.portfolio-item {
+    margin-bottom: 25px;
+}
+
 
 
 
