@@ -1,16 +1,543 @@
 <!DOCTYPE html>
-<html>
-<head lang="en">
-    <meta charset="UTF-8">
-    <title>How It Works</title>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<title>Coffee and Pizza</title>
 
-    <link href="css/bootstrap-theme.min.css" rel="stylesheet" type="text/css">
-    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
-    <link href="css/main.css" rel="stylesheet" type="text/css">
+<!-- Google fonts -->
+<link href='http://fonts.googleapis.com/css?family=Roboto:400,300,700' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Josefin+Sans:600' rel='stylesheet' type='text/css'>
 
+<!-- font awesome -->
+<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="assets/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+<!-- bootstrap -->
+<link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css" />
+
+<!-- animate.css -->
+<link rel="stylesheet" href="assets/animate/animate.css" />
+<link rel="stylesheet" href="assets/animate/set.css" />
+
+<!-- gallery -->
+<link rel="stylesheet" href="assets/gallery/blueimp-gallery.min.css">
+
+<!-- favicon -->
+<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+<link rel="icon" href="images/favicon.ico" type="image/x-icon">
+
+
+<link rel="stylesheet" href="assets/style.css">
 
 </head>
+
+
+
+
+
+
+
 <body>
+<div class="topbar animated fadeInLeftBig"></div>
+
+<!-- Header Starts -->
+<div class="navbar-wrapper">
+      <div class="container">
+
+        <div class="navbar navbar-inverse navbar-fixed-top" role="navigation" id="top-nav">
+          <div class="container">
+            <div class="navbar-header">
+              <!-- Logo Starts -->
+
+                <!-- logo must be 228 X 54 px -->
+              <a class="navbar-brand" href="#home"><img src="images/logo.png" alt="logo"></a>
+              <!-- #Logo Ends -->
+
+
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+
+            </div>
+
+
+            <!-- Nav Starts -->
+            <div class="navbar-collapse  collapse">
+              <ul class="nav navbar-nav navbar-right scroll">
+                 <li class="active"><a href="#home">Home</a></li>
+                 <li ><a href="#menu">Menu</a></li>
+                 <li ><a href="#foods">Gallery</a></li>
+                 <li ><a href="#partners">Partners</a></li>
+                 <li ><a href="#contact">Contact</a></li>
+              </ul>
+            </div>
+            <!-- #Nav Ends -->
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+<!-- #Header Starts -->
+
+
+
+
+
+
+
+
+
+
+<div id="home">
+<!-- Slider Starts -->
+<div class="banner">
+
+            <!-- image must be 1900 by 900 px -->
+          <img src="images/header.jpg" alt="banner" class="img-responsive">
+          <div class="caption">
+            <div class="caption-wrapper">
+              <div class="caption-info">              
+              <i class="fa fa-coffee fa-5x animated bounceInDown"></i>
+              <h1 class="animated bounceInUp">High Dining On A Budget</h1>
+              <p class="animated bounceInLeft">Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+             <a href="#menu" class="explore animated bounceInDown"><i class="fa fa-angle-down  fa-3x"></i></a>
+              </div>
+            </div>
+          </div>
+</div>
+<!-- #Slider Ends -->
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Circle Starts -->
+<div id="menu"  class="container spacer about">
+<h2 class="text-center wowload fadeInUp">Creative Food For Creative People</h2>
+  <div class="row">
+  <div class="col-sm-6 wowload fadeInLeft">
+    <h4><i class="fa fa-coffee"></i> Introduction </h4>
+    <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer eu odio ullamcorper
+        ante faucibus venenatis.Aenean varius vulputate eros nec efficitur. Aliquam erat
+        volutpat. Ut non diam odio.
+    </p>
+
+
+    <p>
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+        industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
+        scrambled it to make a type specimen book.
+    </p>
+    
+
+  </div>
+
+
+
+
+
+  <div class="col-sm-6 wowload fadeInRight">
+    
+     <h4><i class="fa fa-bars"></i> Menu</h4>
+
+      <!-- menus -->
+      <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+  <div class="panel panel-default">
+    <div class="panel-heading" role="tab">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+         <i class="fa fa-coffee"></i> Tea & Coffee
+        </a>
+      </h4>
+    </div>
+    <div id="collapseOne" class="panel-collapse collapse" role="tabpanel">
+      <div class="panel-body">
+        <div class="clearfix food-list"><div class="pull-left">Tea/Coffee</div><span class="pull-right">$ 10.00</span></div>
+        <div class="clearfix food-list"><div class="pull-left">Tea/Coffee</div><span class="pull-right">$ 10.00</span></div>
+        <div class="clearfix food-list"><div class="pull-left">Tea/Coffee</div><span class="pull-right">$ 10.00</span></div>
+        <div class="clearfix food-list"><div class="pull-left">Tea/Coffee</div><span class="pull-right">$ 10.00</span></div>
+      </div>
+    </div>
+  </div>
+  <div class="panel panel-default">
+    <div class="panel-heading" role="tab">
+      <h4 class="panel-title">
+        <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+         <i class="fa fa-fire"></i> Firewood Pizza and Spaghetti
+        </a>
+      </h4>
+    </div>
+    <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel">
+      <div class="panel-body">
+        <div class="clearfix food-list"><div class="pull-left">Tea/Coffee</div><span class="pull-right">$ 10.00</span></div>
+        <div class="clearfix food-list"><div class="pull-left">Tea/Coffee</div><span class="pull-right">$ 10.00</span></div>
+        <div class="clearfix food-list"><div class="pull-left">Tea/Coffee</div><span class="pull-right">$ 10.00</span></div>
+        <div class="clearfix food-list"><div class="pull-left">Tea/Coffee</div><span class="pull-right">$ 10.00</span></div>
+      </div>
+    </div>
+  </div>
+  <div class="panel panel-default">
+    <div class="panel-heading" role="tab">
+      <h4 class="panel-title">
+        <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+         <i class="fa fa-beer"></i> Beers & Cocktails
+        </a>
+      </h4>
+    </div>
+    <div id="collapseThree" class="panel-collapse collapse" role="tabpanel">
+      <div class="panel-body">
+        <div class="clearfix food-list"><div class="pull-left">Tea/Coffee</div><span class="pull-right">$ 10.00</span></div>
+        <div class="clearfix food-list"><div class="pull-left">Tea/Coffee</div><span class="pull-right">$ 10.00</span></div>
+        <div class="clearfix food-list"><div class="pull-left">Tea/Coffee</div><span class="pull-right">$ 10.00</span></div>
+        <div class="clearfix food-list"><div class="pull-left">Tea/Coffee</div><span class="pull-right">$ 10.00</span></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="panel panel-default">
+    <div class="panel-heading" role="tab">
+      <h4 class="panel-title">
+        <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+         <i class="fa fa-spoon"></i> Fine Dinner
+        </a>
+      </h4>
+    </div>
+    <div id="collapseFour" class="panel-collapse collapse" role="tabpanel">
+      <div class="panel-body">
+        <div class="clearfix food-list"><div class="pull-left">Tea/Coffee</div><span class="pull-right">$ 10.00</span></div>
+        <div class="clearfix food-list"><div class="pull-left">Tea/Coffee</div><span class="pull-right">$ 10.00</span></div>
+        <div class="clearfix food-list"><div class="pull-left">Tea/Coffee</div><span class="pull-right">$ 10.00</span></div>
+        <div class="clearfix food-list"><div class="pull-left">Tea/Coffee</div><span class="pull-right">$ 10.00</span></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="panel panel-default">
+    <div class="panel-heading" role="tab">
+      <h4 class="panel-title">
+        <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+         <i class="fa fa-birthday-cake"></i> Bakery
+        </a>
+      </h4>
+    </div>
+    <div id="collapseFive" class="panel-collapse collapse" role="tabpanel">
+      <div class="panel-body">
+        <div class="clearfix food-list"><div class="pull-left">Tea/Coffee</div><span class="pull-right">$ 10.00</span></div>
+        <div class="clearfix food-list"><div class="pull-left">Tea/Coffee</div><span class="pull-right">$ 10.00</span></div>
+        <div class="clearfix food-list"><div class="pull-left">Tea/Coffee</div><span class="pull-right">$ 10.00</span></div>
+        <div class="clearfix food-list"><div class="pull-left">Tea/Coffee</div><span class="pull-right">$ 10.00</span></div>
+      </div>
+    </div>
+  </div>
+
+
+</div>
+      <!-- menus -->
+
+
+
+  </div>
+  </div>
+
+  
+</div>
+<!-- #Cirlce Ends -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- works -->
+<!-- Image size must be 1234 X 800 px -->
+<div id="foods"  class=" clearfix grid"> 
+    <figure class="effect-oscar  wowload fadeInUp">
+        <img src="images/portfolio/picture_1.jpg" alt="img01"/>
+        <figcaption>
+            <h2>Artistic</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit<br>
+            <a href="images/portfolio/picture_1.jpg" title="1" data-gallery>View</a></p>
+        </figcaption>
+    </figure>
+     <figure class="effect-oscar  wowload fadeInUp">
+        <img src="images/portfolio/picture_2.jpg" alt="img01"/>
+        <figcaption>
+            <h2>Ambience</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit<br>
+            <a href="images/portfolio/picture_2.jpg" title="1" data-gallery>View</a></p>
+        </figcaption>
+    </figure>
+     <figure class="effect-oscar  wowload fadeInUp">
+        <img src="images/portfolio/picture_3.jpg" alt="img01"/>
+        <figcaption>
+            <h2>Bar</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit<br>
+            <a href="images/portfolio/picture_3.jpg" title="1" data-gallery>View</a></p>
+        </figcaption>
+    </figure>
+     <figure class="effect-oscar  wowload fadeInUp">
+        <img src="images/portfolio/picture_4.jpg" alt="img01"/>
+        <figcaption>
+            <h2>Relax</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit<br>
+            <a href="images/portfolio/picture_4.jpg" title="1" data-gallery>View</a></p>
+        </figcaption>
+    </figure>
+     
+     <figure class="effect-oscar  wowload fadeInUp">
+        <img src="images/portfolio/picture_5.jpg" alt="img01"/>
+        <figcaption>
+            <h2>Intimate</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit<br>
+            <a href="images/portfolio/picture_5.jpg" title="1" data-gallery>View</a></p>
+        </figcaption>
+    </figure>
+    <figure class="effect-oscar  wowload fadeInUp">
+        <img src="images/portfolio/picture_6.jpg" alt="img01"/>
+        <figcaption>
+            <h2>Dinner</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit<br>
+            <a href="images/portfolio/picture_6.jpg" title="1" data-gallery>View</a></p>
+        </figcaption>
+    </figure>
+     
+    
+    
+
+     
+</div>
+<!-- works -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="partners" class="container spacer ">
+	<h2 class="text-center  wowload fadeInUp">Some of our happy customers</h2>
+  <div class="clearfix">    
+    <div class="col-sm-6 col-sm-offset-3">
+
+
+    <div id="carousel-testimonials" class="carousel slide testimonails  wowload fadeInRight" data-ride="carousel">
+    <div class="carousel-inner">  
+      <div class="item active animated bounceInRight row">
+      <div class="animated slideInLeft col-xs-2"><img alt="portfolio" src="images/team/1.jpg" width="100" class="img-circle img-responsive"></div>
+      <div  class="col-xs-10">
+      <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vulputate turpis vel porta pharetra. Nunc ut diam non elit interdum rutrum.
+      </p>
+      <span>Angel Smith - <b>eshop Canada</b></span>
+      </div>
+      </div>
+      <div class="item  animated bounceInRight row">
+      <div class="animated slideInLeft col-xs-2"><img alt="portfolio" src="images/team/2.jpg" width="100" class="img-circle img-responsive"></div>
+      <div  class="col-xs-10">
+      <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vulputate turpis vel porta pharetra. Nunc ut diam non elit interdum rutrum.
+      </p>
+      <span>John Partic - <b>Crazy Pixel</b></span>
+      </div>
+      </div>
+      <div class="item  animated bounceInRight row">
+      <div class="animated slideInLeft  col-xs-2"><img alt="portfolio" src="images/team/6.jpg" width="100"
+                                                       class="img-circle img-responsive"></div>
+      <div  class="col-xs-10">
+      <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vulputate turpis vel porta pharetra. Nunc ut diam non elit interdum rutrum.
+      </p>
+      <span>Harris David - <b>Jet London</b></span>
+      </div>
+      </div>
+  </div>
+
+   <!-- Indicators -->
+   	<ol class="carousel-indicators">
+    <li data-target="#carousel-testimonials" data-slide-to="0" class="active"></li>
+    <li data-target="#carousel-testimonials" data-slide-to="1"></li>
+    <li data-target="#carousel-testimonials" data-slide-to="2"></li>
+  	</ol>
+  	<!-- Indicators -->
+  </div>
+
+
+
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+<!-- treat the class sizes for each picture like the portfolio columns template -->
+
+<!-- team -->
+<h3 class="text-center  wowload fadeInUp">Our Chefs</h3>
+<p class="text-center  wowload fadeInLeft">Our chefs that make everything possible</p>
+<div class="row grid team  wowload fadeInUpBig">
+	<div class="col-md-6 portfolio-item">
+	<figure class="effect-chico">
+        <img src="images/team/chef.jpg" alt="img01" class="img-responsive" />
+        <figcaption>
+            <p><b>Rob Nash</b><br>Senior Chef</p>
+        </figcaption>
+    </figure>
+    </div>
+
+    <div class="col-md-6 portfolio-item">
+	<figure class="effect-chico">
+        <img src="images/team/chef_2.jpg" alt="img01"/>
+        <figcaption>            
+            <p><b>Rachel Glee</b><br>Chef</p>
+        </figcaption>
+    </figure>
+    </div>
+
+</div>
+<!-- team -->
+
+</div>
+
+
+
+
+
+
+
+
+<!-- About Starts -->
+<div class="highlight-info">
+<div class="overlay spacer">
+<div class="container">
+<div class="row text-center  wowload fadeInDownBig">
+	<div class="col-sm-3 col-xs-6">
+	<i class="fa fa-smile-o  fa-5x"></i><h4>Indoor and Outdoor Seating</h4>
+	</div>
+	<div class="col-sm-3 col-xs-6">
+	<i class="fa fa-thumbs-up  fa-5x"></i><h4>Lots of Variety</h4>
+	</div>
+	<div class="col-sm-3 col-xs-6">
+	<i class="fa fa-history  fa-5x"></i><h4>15 yrs old</h4>
+	</div>
+	<div class="col-sm-3 col-xs-6">
+	<i class="fa fa-map-marker fa-5x"></i><h4>2 Locations</h4>
+	</div>
+</div>
+</div>
+</div>
+</div>
+<!-- About Ends -->
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="contact" class="spacer">
+<!--Contact Starts-->
+<div class="container contactform center">
+<h2 class="text-center  wowload fadeInUp">Reservation</h2>
+  <div class="row wowload fadeInLeftBig">      
+      <div class="col-sm-6 col-sm-offset-3 col-xs-12">
+
+
+          <form method="post" name="contact_form" action="php/contact-form-handler.php">
+
+
+                <input type="text" placeholder="name">
+                <input type="text" placeholder="phone">
+                <textarea rows="5" placeholder="message"></textarea>
+                <button class="btn btn-primary"><i class="fa fa-paper-plane"></i> Send</button>
+
+
+
+          </form>
+
+
+      </div>
+  </div>
+
+
+
+</div>
+
+</div>
+
+    <!-- form validation -->
+<script language="JavaScript">
+    var frmvalidator  = new Validator("contactform");
+    frmvalidator.addValidation("name","req","Please provide your name");
+    frmvalidator.addValidation("email","req","Please provide your email");
+    frmvalidator.addValidation("email","email",
+            "Please enter a valid email address");
+</script>
+
+<!--Contact Ends-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="map"></div>
 
 
 
@@ -29,10 +556,62 @@
 
 
 
-<script type="text/javascript" src="js/bootstrap.min.js"></script>
-<script type="text/javascript" src="js/main.js"></script>
-<script type="text/javascript" src="jquery/jquery.js"></script>
+<!-- Footer Starts -->
+<div class="footer text-center spacer">
+<p class="wowload flipInX"><a href="#"><i class="fa fa-facebook fa-2x"></i></a> <a href="#"><i class="fa fa-instagram fa-2x"></i></a> <a href="#"><i class="fa fa-twitter fa-2x"></i></a> <a href="#"><i class="fa fa-flickr fa-2x"></i></a> </p>
+Copyright 2016. All rights reserved.
+</div>
+<!-- # Footer Ends -->
+<a href="#home" class="gototop "><i class="fa fa-angle-up  fa-3x"></i></a>
 
+
+
+
+
+
+
+
+
+
+
+
+<!-- The Bootstrap Image Gallery lightbox, should be a child element of the document body -->
+<div id="blueimp-gallery" class="blueimp-gallery blueimp-gallery-controls">
+    <!-- The container for the modal slides -->
+    <div class="slides"></div>
+    <!-- Controls for the borderless lightbox -->
+    <h3 class="title">Title</h3>
+    <a class="prev">‹</a>
+    <a class="next">›</a>
+    <a class="close">×</a>
+    <!-- The modal dialog, which will be used to wrap the lightbox content -->    
+</div>
+
+
+
+<!-- jquery -->
+<script src="assets/jquery.js"></script>
+
+<!-- wow script -->
+<script src="assets/wow/wow.min.js"></script>
+
+
+<!-- boostrap -->
+<script src="assets/bootstrap/js/bootstrap.js" type="text/javascript" ></script>
+
+<!-- jquery mobile -->
+<script src="assets/mobile/touchSwipe.min.js"></script>
+<script src="assets/respond/respond.js"></script>
+
+<!-- gallery -->
+<script src="assets/gallery/jquery.blueimp-gallery.min.js"></script>
+
+<!-- change the API key right after key= in the url here -->
+<!-- Google Maps API Key - Use your own API key to enable the map feature. More information on the Google Maps API can be found at https://developers.google.com/maps/ -->
+<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCRngKslUGJTlibkQ3FkfTxj3Xss1UlZDA&sensor=false"></script>
+
+<!-- custom script -->
+<script src="assets/script.js"></script>
 
 </body>
 </html>
