@@ -39,17 +39,10 @@ nav a:hover{
 
 /* main section */
 
-#header_img{
-    width: 80%;
-    height: 600px;
-    background-image: url("../images/photo_header.jpg");
-    background-size: 100% 100%;
-    background-position: center;
-    background-repeat: no-repeat;
+.banner{
+    width: 90%;
     margin: 0 auto;
-    margin-top: 50px;
-    border-radius: 25px;
-
+    padding-bottom: 50px;
 }
 
 
@@ -178,6 +171,11 @@ footer img:hover, .model-footer img:hover{
 
 
 @media (max-width: 768px){
+
+    .banner{
+        padding-bottom: 12px;
+        width: 100%;
+    }
 
 
 
