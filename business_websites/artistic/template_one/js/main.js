@@ -1,5 +1,5 @@
 $( document ).ready(function() {
-    $("#services, #about, #team, #contact").css("display", "none");
+    $("#services, #about, #team, #contact, #price").css("display", "none");
     $(".filter").css("visibility", "hidden");
 
 
@@ -36,6 +36,13 @@ $( document ).ready(function() {
         });
     });
 
+    $( "#navprice" ).click(function() {
+        $( "#price" ).toggle( "slow", function() {
+            $(".filter").css("visibility", "visible");
+            // Animation complete.
+        });
+    });
+
 
     $( "#navcontact" ).click(function() {
         $( "#contact" ).toggle( "slow", function() {
@@ -50,26 +57,34 @@ $( document ).ready(function() {
 
 
 
-    $("#navcontact, #navservices, #navteam").click(function(){
+
+
+    $("#navcontact, #navservices, #navteam, #navprice").click(function(){
         $("#about").slideUp( "slow", function() {
             // Animation complete.
         });
     });
 
-    $("#navabout, #navcontact, #navteam").click(function(){
+    $("#navabout, #navcontact, #navteam, #navprice").click(function(){
         $("#services").slideUp( "slow", function() {
             // Animation complete.
         });
     });
 
-    $("#navcontact, #navservices, #navabout").click(function(){
+    $("#navcontact, #navservices, #navabout, #navprice").click(function(){
         $("#team").slideUp( "slow", function() {
             // Animation complete.
         });
     });
 
-    $("#navabout, #navservices, #navteam").click(function(){
+    $("#navabout, #navservices, #navteam, #navprice").click(function(){
         $("#contact").slideUp( "slow", function() {
+            // Animation complete.
+        });
+    });
+
+    $("#navabout, #navservices, #navteam, #navcontact").click(function(){
+        $("#price").slideUp( "slow", function() {
             // Animation complete.
         });
     });
@@ -105,7 +120,7 @@ $( document ).ready(function() {
 
 
     $( "#welcome" ).click(function() {
-        $( "#about, #services, #team, #contact" ).hide( "slow", function() {
+        $( "#about, #services, #team, #contact, #price" ).hide( "slow", function() {
             $(".filter").css("visibility", "hidden");
             // Animation complete.
         });
