@@ -10,7 +10,7 @@
 <link href='http://fonts.googleapis.com/css?family=Raleway:400,800' rel='stylesheet' type='text/css'>
 
 <!-- font awesome -->
-<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+<<link href="assets/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
 
 <!-- bootstrap -->
 <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css" />
@@ -36,11 +36,12 @@
       
        
 
-      <h1 class="logo"><a href="#home" class="scroll">Barons</a></h1>
+      <h1 class="logo"><a href="#home" class="scroll">Dead Shot Co.</a></h1>
       <div class="menu">
-      <a href="#about" class="scroll">Menu</a>
-      <a href="#products" class="scroll">Gallery</a>
-      <a href="#contact" class="scroll">Contact</a>      
+          <a href="#about" class="scroll">About</a>
+          <a href="#services" class="scroll">Services</a>
+          <a href="#products" class="scroll">Gallery</a>
+          <a href="#contact" class="scroll">Price Quote</a>
       </div>
       <!-- slider -->
       <div id="carousel-banner" class="carousel slide" data-ride="carousel">
@@ -51,7 +52,7 @@
         <div class="item active"><img src="images/banner_1.jpg" class="img-responsive">
                <!-- caption -->
               <div class="caption">
-              <h2>Freshest Ingredients</h2>
+              <h2>Professional Gear</h2>
               <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
               </p>   
               </div>
@@ -63,7 +64,7 @@
         <div class="item"><img src="images/banner_2.jpg" class="img-responsive">
                <!-- caption -->
               <div class="caption">
-              <h2>Stunning Plates</h2>
+              <h2>Stunning Pictures</h2>
               <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
               </p>   
               </div>
@@ -115,19 +116,30 @@
 
 
         <!-- About -->
-        <div class="container top">
-            <div class="row">
-                <div class="text-center">
-                    <h1>Fine Dining On A Budget</h1>
-                    <p>
-                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
-                        the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley
-                        of type and scrambled it to make a type specimen book. It has survived not only five centuries,
-                        but also the leap into electronic typesetting, remaining essentially unchanged. It was
-                        popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
-                        and more recently with desktop publishing software like Aldus PageMaker including versions of
-                        Lorem Ipsum.
-                    </p>
+        <div id="about">
+            <div class="container top">
+                <div class="row">
+                    <div class="text-center">
+                        <h1>Lets Collaborate</h1>
+                        <p>
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+                            the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley
+                            of type and scrambled it to make a type specimen book. It has survived not only five centuries,
+                            but also the leap into electronic typesetting, remaining essentially unchanged. It was
+                            popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
+                            and more recently with desktop publishing software like Aldus PageMaker including versions of
+                            Lorem Ipsum.
+                        </p><br>
+                        <p>
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+                            the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley
+                            of type and scrambled it to make a type specimen book. It has survived not only five centuries,
+                            but also the leap into electronic typesetting, remaining essentially unchanged. It was
+                            popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
+                            and more recently with desktop publishing software like Aldus PageMaker including versions of
+                            Lorem Ipsum.
+                        </p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -144,11 +156,10 @@
 
 
 
-
         <!-- food -->
-        <div class="about" id="about">
+        <div class="about" id="services">
           <div class="container">
-            <h2 class="text-center">Our Menu</h2>
+            <h2 class="text-center">Our Services</h2>
             <div class="row">
             <div class="col-md-6 col-xs-12 col-md-offset-3">
 
@@ -160,16 +171,16 @@
                         <div class="panel-heading" role="tab">
                             <h4 class="panel-title">
                                 <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                    <i class="fa fa-cutlery"></i> Breakfast
+                                    <i class="fa fa-empire"></i> Agency Production
                                 </a>
                             </h4>
                         </div>
                         <div id="collapseOne" class="panel-collapse collapse" role="tabpanel">
                             <div class="panel-body">
-                                <div class="clearfix food-list"><div class="pull-left">Food Dish</div><span class="pull-right">$ 10.00</span></div>
-                                <div class="clearfix food-list"><div class="pull-left">Food Dish</div><span class="pull-right">$ 10.00</span></div>
-                                <div class="clearfix food-list"><div class="pull-left">Food Dish</div><span class="pull-right">$ 10.00</span></div>
-                                <div class="clearfix food-list"><div class="pull-left">Food Dish</div><span class="pull-right">$ 10.00</span></div>
+                                <div class="clearfix food-list"><div class="pull-left">Service X</div><span class="pull-right">$ 100.00</span></div>
+                                <div class="clearfix food-list"><div class="pull-left">Service X</div><span class="pull-right">$ 100.00</span></div>
+                                <div class="clearfix food-list"><div class="pull-left">Service X</div><span class="pull-right">$ 100.00</span></div>
+                                <div class="clearfix food-list"><div class="pull-left">Service X</div><span class="pull-right">$ 100.00</span></div>
                             </div>
                         </div>
                     </div>
@@ -180,16 +191,16 @@
                         <div class="panel-heading" role="tab">
                             <h4 class="panel-title">
                                 <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                    <i class="fa fa-fire"></i> Lunch
+                                    <i class="fa fa-fire"></i> Corporate Production
                                 </a>
                             </h4>
                         </div>
                         <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel">
                             <div class="panel-body">
-                                <div class="clearfix food-list"><div class="pull-left">Food Dish</div><span class="pull-right">$ 10.00</span></div>
-                                <div class="clearfix food-list"><div class="pull-left">Food Dish</div><span class="pull-right">$ 10.00</span></div>
-                                <div class="clearfix food-list"><div class="pull-left">Food Dish</div><span class="pull-right">$ 10.00</span></div>
-                                <div class="clearfix food-list"><div class="pull-left">Food Dish</div><span class="pull-right">$ 10.00</span></div>
+                                <div class="clearfix food-list"><div class="pull-left">Service X</div><span class="pull-right">$ 100.00</span></div>
+                                <div class="clearfix food-list"><div class="pull-left">Service X</div><span class="pull-right">$ 100.00</span></div>
+                                <div class="clearfix food-list"><div class="pull-left">Service X</div><span class="pull-right">$ 100.00</span></div>
+                                <div class="clearfix food-list"><div class="pull-left">Service X</div><span class="pull-right">$ 100.00</span></div>
                             </div>
                         </div>
                     </div>
@@ -202,16 +213,16 @@
                         <div class="panel-heading" role="tab">
                             <h4 class="panel-title">
                                 <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                    <i class="fa fa-coffee"></i> Dinner
+                                    <i class="fa fa-pencil"></i> Creative Production
                                 </a>
                             </h4>
                         </div>
                         <div id="collapseThree" class="panel-collapse collapse" role="tabpanel">
                             <div class="panel-body">
-                                <div class="clearfix food-list"><div class="pull-left">Food Dish</div><span class="pull-right">$ 10.00</span></div>
-                                <div class="clearfix food-list"><div class="pull-left">Food Dish</div><span class="pull-right">$ 10.00</span></div>
-                                <div class="clearfix food-list"><div class="pull-left">Food Dish</div><span class="pull-right">$ 10.00</span></div>
-                                <div class="clearfix food-list"><div class="pull-left">Food Dish</div><span class="pull-right">$ 10.00</span></div>
+                                <div class="clearfix food-list"><div class="pull-left">Service X</div><span class="pull-right">$ 100.00</span></div>
+                                <div class="clearfix food-list"><div class="pull-left">Service X</div><span class="pull-right">$ 100.00</span></div>
+                                <div class="clearfix food-list"><div class="pull-left">Service X</div><span class="pull-right">$ 100.00</span></div>
+                                <div class="clearfix food-list"><div class="pull-left">Service X</div><span class="pull-right">$ 100.00</span></div>
                             </div>
                         </div>
                     </div>
@@ -223,16 +234,16 @@
                         <div class="panel-heading" role="tab">
                             <h4 class="panel-title">
                                 <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                                    <i class="fa fa-money"></i> Beverages
+                                    <i class="fa fa-gears"></i> Community Production
                                 </a>
                             </h4>
                         </div>
                         <div id="collapseFour" class="panel-collapse collapse" role="tabpanel">
                             <div class="panel-body">
-                                <div class="clearfix food-list"><div class="pull-left">Food Dish</div><span class="pull-right">$ 10.00</span></div>
-                                <div class="clearfix food-list"><div class="pull-left">Food Dish</div><span class="pull-right">$ 10.00</span></div>
-                                <div class="clearfix food-list"><div class="pull-left">Food Dish</div><span class="pull-right">$ 10.00</span></div>
-                                <div class="clearfix food-list"><div class="pull-left">Food Dish</div><span class="pull-right">$ 10.00</span></div>
+                                <div class="clearfix food-list"><div class="pull-left">Service X</div><span class="pull-right">$ 100.00</span></div>
+                                <div class="clearfix food-list"><div class="pull-left">Service X</div><span class="pull-right">$ 100.00</span></div>
+                                <div class="clearfix food-list"><div class="pull-left">Service X</div><span class="pull-right">$ 100.00</span></div>
+                                <div class="clearfix food-list"><div class="pull-left">Service X</div><span class="pull-right">$ 100.00</span></div>
                             </div>
                         </div>
                     </div>
@@ -244,16 +255,16 @@
                         <div class="panel-heading" role="tab">
                             <h4 class="panel-title">
                                 <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseFive" aria-expanded="false" aria-controls="collapseFour">
-                                    <i class="fa fa-flash"></i> Appetizers
+                                    <i class="fa fa-money"></i> Non-Profit
                                 </a>
                             </h4>
                         </div>
                         <div id="collapseFive" class="panel-collapse collapse" role="tabpanel">
                             <div class="panel-body">
-                                <div class="clearfix food-list"><div class="pull-left">Food Dish</div><span class="pull-right">$ 10.00</span></div>
-                                <div class="clearfix food-list"><div class="pull-left">Food Dish</div><span class="pull-right">$ 10.00</span></div>
-                                <div class="clearfix food-list"><div class="pull-left">Food Dish</div><span class="pull-right">$ 10.00</span></div>
-                                <div class="clearfix food-list"><div class="pull-left">Food Dish</div><span class="pull-right">$ 10.00</span></div>
+                                <div class="clearfix food-list"><div class="pull-left">Service X</div><span class="pull-right">$ 100.00</span></div>
+                                <div class="clearfix food-list"><div class="pull-left">Service X</div><span class="pull-right">$ 100.00</span></div>
+                                <div class="clearfix food-list"><div class="pull-left">Service X</div><span class="pull-right">$ 100.00</span></div>
+                                <div class="clearfix food-list"><div class="pull-left">Service X</div><span class="pull-right">$ 100.00</span></div>
                             </div>
                         </div>
                     </div>
@@ -281,19 +292,19 @@
 
        <!-- product list -->
        <div id="products">
-       <h2 class="text-center">Home Cooking</h2>
+       <h2 class="text-center">Our Previous Work</h2>
         <div class="row-fluid gallery clearfix" id="portfolio">
 
 
 
                 <!-- image must be 1024 X 683 px -->
               <!-- product -->
-              <div class="col-sm-3 product wowload fadeInUp">
+              <div class="col-sm-4 product wowload fadeInUp">
                 <img src="images/photos/picture_1.jpg" class="img-responsive">
                 <div class="overlay">
                   <div class="ab-wrap"><div class="ab-center text-center">
-                    <h3>Relaxing</h3>
-                    <a href="images/photos/picture_1.jpg" title="Shoes" class="btn btn-default gallery-image" data-gallery="">View</a>
+                    <h3>Project 1</h3>
+                    <a href="images/photos/picture_1.jpg" title="Portfolio" class="btn btn-default gallery-image" data-gallery="">View</a>
                   </div></div>
                 </div>
               </div>
@@ -304,12 +315,12 @@
 
 
               <!-- product -->
-              <div class="col-sm-3 product wowload fadeInUp">
+              <div class="col-sm-4 product wowload fadeInUp">
                 <img src="images/photos/picture_2.jpg" class="img-responsive">
                 <div class="overlay">
                   <div class="ab-wrap"><div class="ab-center text-center">
-                    <h3>Relaxing</h3>
-                    <a href="images/photos/picture_2.jpg" title="Formal" class="btn btn-default gallery-image" data-gallery="">View</a>
+                    <h3>Project 2</h3>
+                    <a href="images/photos/picture_2.jpg" title="Portfolio" class="btn btn-default gallery-image" data-gallery="">View</a>
                   </div></div>
                 </div>
               </div>
@@ -320,12 +331,12 @@
 
 
               <!-- product -->
-              <div class="col-sm-3 product wowload fadeInUp">
+              <div class="col-sm-4 product wowload fadeInUp">
                 <img src="images/photos/picture_3.jpg" class="img-responsive">
                 <div class="overlay">
                   <div class="ab-wrap"><div class="ab-center text-center">
-                    <h3>Relaxing</h3>
-                    <a href="images/photos/picture_3.jpg" title="Red" class="btn btn-default gallery-image" data-gallery="">View</a>
+                    <h3>Project 3</h3>
+                    <a href="images/photos/picture_3.jpg" title="Portfolio" class="btn btn-default gallery-image" data-gallery="">View</a>
                   </div></div>
                 </div>
               </div>
@@ -336,12 +347,12 @@
 
 
               <!-- product -->
-              <div class="col-sm-3 product wowload fadeInUp ">
+              <div class="col-sm-4 product wowload fadeInUp ">
                 <img src="images/photos/picture_4.jpg" class="img-responsive">
                 <div class="overlay">
                   <div class="ab-wrap"><div class="ab-center text-center">
-                    <h3>Relaxing</h3>
-                    <a href="images/photos/picture_4.jpg" title="Brown" class="btn btn-default gallery-image" data-gallery="">View</a>
+                    <h3>Project 4</h3>
+                    <a href="images/photos/picture_4.jpg" title="Portfolio" class="btn btn-default gallery-image" data-gallery="">View</a>
                   </div></div>
                 </div>
               </div>
@@ -352,12 +363,12 @@
 
 
               <!-- product -->
-              <div class="col-sm-3 product wowload fadeInUp ">
+              <div class="col-sm-4 product wowload fadeInUp ">
                 <img src="images/photos/picture_5.jpg" class="img-responsive">
                 <div class="overlay">
                   <div class="ab-wrap"><div class="ab-center text-center">
-                    <h3>Relaxing</h3>
-                    <a href="images/photos/picture_5.jpg" title="Brown" class="btn btn-default gallery-image" data-gallery="">View</a>
+                    <h3>Project 5</h3>
+                    <a href="images/photos/picture_5.jpg" title="Portfolio" class="btn btn-default gallery-image" data-gallery="">View</a>
                   </div></div>
                 </div>
               </div>
@@ -367,48 +378,18 @@
 
 
               <!-- product -->
-              <div class="col-sm-3 product wowload fadeInUp">
+              <div class="col-sm-4 product wowload fadeInUp">
                 <img src="images/photos/picture_6.jpg" class="img-responsive">
                 <div class="overlay">
                   <div class="ab-wrap"><div class="ab-center text-center">
-                    <h3>Relaxing</h3>
-                    <a href="images/photos/picture_6.jpg" title="Red" class="btn btn-default gallery-image" data-gallery="">View</a>
+                    <h3>Project 6</h3>
+                    <a href="images/photos/picture_6.jpg" title="Portfolio" class="btn btn-default gallery-image" data-gallery="">View</a>
                   </div></div>
                 </div>
               </div>
               <!-- product -->
 
 
-
-
-
-              <!-- product -->
-              <div class="col-sm-3 product wowload fadeInUp">
-                <img src="images/photos/picture_7.jpg" class="img-responsive">
-                <div class="overlay">
-                  <div class="ab-wrap"><div class="ab-center text-center">
-                    <h3>Relaxing</h3>
-                    <a href="images/photos/picture_7.jpg" title="Shoes" class="btn btn-default gallery-image" data-gallery="">View</a>
-                  </div></div>
-                </div>
-              </div>
-              <!-- product -->
-
-
-
-
-
-              <!-- product -->
-              <div class="col-sm-3 product wowload fadeInUp">
-                <img src="images/photos/picture_8.jpg" class="img-responsive">
-                <div class="overlay">
-                  <div class="ab-wrap"><div class="ab-center text-center">
-                    <h3>Relaxing</h3>
-                    <a href="images/photos/picture_8.jpg" title="Formal" class="btn btn-default gallery-image" data-gallery="">View</a>
-                  </div></div>
-                </div>
-              </div>
-              <!-- product -->
        </div>
        </div>
        <!-- product list -->
@@ -445,7 +426,7 @@
 
 
        <div class="container">
-       <h2 class="text-center">Reservations</h2>
+       <h2 class="text-center">Price Requests</h2>
        <div class="row">
         <div class="col-sm-6 col-sm-offset-3">
             

@@ -71,7 +71,7 @@ h4{color: #eb9909;margin-bottom: 0.5em;font-size: 1.25em;}
 h1.logo{background: url(../images/logo.png) 10px center no-repeat #fff;padding-left: 66px;position: fixed;z-index: 10000;left: 0;font:800 1.5em/60px Raleway;width: 235px;top: 0;background-size: 50px;color: #000;}
 h1.logo a{color: #333;}
 
-.menu{position:fixed;top: 60px;background-color:#fff;left: 0;z-index: 10000;padding:10px 0;width: 235px;}
+.menu{position:fixed;top: 60px;background-color:#fff;left: 0;z-index: 10000;padding:10px 0;width: 335px;}
 .menu a{color: #000;margin:0 11px;}
 /*header*/
 
