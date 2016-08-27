@@ -30,8 +30,12 @@ body {
     color: white;
 }
 
+#top h1{
+    color: black;
+}
+
 h3{
-    color: white;
+    color: black;
 }
 
 #team{
@@ -172,7 +176,7 @@ hr.small {
     position: relative;
     width: 100%;
     height: 100%;
-    background: url(../img/court_house.jpg) no-repeat center center scroll;   /* background image for header */
+    background: url(../img/header.jpg) no-repeat center center scroll;   /* background image for header */
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -202,7 +206,7 @@ hr.small {
     width: 100%;
     height: 400px;
     color: #fff;
-    background: url(../img/conference.jpg) no-repeat center center scroll;   /* Call out picture here */
+    background: url(../img/middle.jpg) no-repeat center center scroll;   /* Call out picture here */
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
