@@ -4,7 +4,7 @@
 <meta charset="UTF-8" />
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-<title>Barons</title>
+<title>Bootstrap Roadmap</title>
 
 <!-- Google fonts -->
 <link href='http://fonts.googleapis.com/css?family=Raleway:400,800' rel='stylesheet' type='text/css'>
@@ -166,10 +166,10 @@
                         </div>
                         <div id="collapseOne" class="panel-collapse collapse" role="tabpanel">
                             <div class="panel-body">
-                                <div class="clearfix food-list"><div class="pull-left">Food Dish</div><span class="pull-right">$ 10.00</span></div>
-                                <div class="clearfix food-list"><div class="pull-left">Food Dish</div><span class="pull-right">$ 10.00</span></div>
-                                <div class="clearfix food-list"><div class="pull-left">Food Dish</div><span class="pull-right">$ 10.00</span></div>
-                                <div class="clearfix food-list"><div class="pull-left">Food Dish</div><span class="pull-right">$ 10.00</span></div>
+                                <div class="clearfix food-list"><div class="pull-left">Service</div><span class="pull-right">$ 100.00</span></div>
+                                <div class="clearfix food-list"><div class="pull-left">Service</div><span class="pull-right">$ 100.00</span></div>
+                                <div class="clearfix food-list"><div class="pull-left">Service</div><span class="pull-right">$ 100.00</span></div>
+                                <div class="clearfix food-list"><div class="pull-left">Service</div><span class="pull-right">$ 100.00</span></div>
                             </div>
                         </div>
                     </div>
@@ -186,10 +186,10 @@
                         </div>
                         <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel">
                             <div class="panel-body">
-                                <div class="clearfix food-list"><div class="pull-left">Food Dish</div><span class="pull-right">$ 10.00</span></div>
-                                <div class="clearfix food-list"><div class="pull-left">Food Dish</div><span class="pull-right">$ 10.00</span></div>
-                                <div class="clearfix food-list"><div class="pull-left">Food Dish</div><span class="pull-right">$ 10.00</span></div>
-                                <div class="clearfix food-list"><div class="pull-left">Food Dish</div><span class="pull-right">$ 10.00</span></div>
+                                <div class="clearfix food-list"><div class="pull-left">Service</div><span class="pull-right">$ 100.00</span></div>
+                                <div class="clearfix food-list"><div class="pull-left">Service</div><span class="pull-right">$ 100.00</span></div>
+                                <div class="clearfix food-list"><div class="pull-left">Service</div><span class="pull-right">$ 100.00</span></div>
+                                <div class="clearfix food-list"><div class="pull-left">Service</div><span class="pull-right">$ 100.00</span></div>
                             </div>
                         </div>
                     </div>
@@ -208,10 +208,10 @@
                         </div>
                         <div id="collapseThree" class="panel-collapse collapse" role="tabpanel">
                             <div class="panel-body">
-                                <div class="clearfix food-list"><div class="pull-left">Food Dish</div><span class="pull-right">$ 10.00</span></div>
-                                <div class="clearfix food-list"><div class="pull-left">Food Dish</div><span class="pull-right">$ 10.00</span></div>
-                                <div class="clearfix food-list"><div class="pull-left">Food Dish</div><span class="pull-right">$ 10.00</span></div>
-                                <div class="clearfix food-list"><div class="pull-left">Food Dish</div><span class="pull-right">$ 10.00</span></div>
+                                <div class="clearfix food-list"><div class="pull-left">Service</div><span class="pull-right">$ 100.00</span></div>
+                                <div class="clearfix food-list"><div class="pull-left">Service</div><span class="pull-right">$ 100.00</span></div>
+                                <div class="clearfix food-list"><div class="pull-left">Service</div><span class="pull-right">$ 100.00</span></div>
+                                <div class="clearfix food-list"><div class="pull-left">Service</div><span class="pull-right">$ 100.00</span></div>
                             </div>
                         </div>
                     </div>
@@ -229,10 +229,10 @@
                         </div>
                         <div id="collapseFour" class="panel-collapse collapse" role="tabpanel">
                             <div class="panel-body">
-                                <div class="clearfix food-list"><div class="pull-left">Food Dish</div><span class="pull-right">$ 10.00</span></div>
-                                <div class="clearfix food-list"><div class="pull-left">Food Dish</div><span class="pull-right">$ 10.00</span></div>
-                                <div class="clearfix food-list"><div class="pull-left">Food Dish</div><span class="pull-right">$ 10.00</span></div>
-                                <div class="clearfix food-list"><div class="pull-left">Food Dish</div><span class="pull-right">$ 10.00</span></div>
+                                <div class="clearfix food-list"><div class="pull-left">Service</div><span class="pull-right">$ 100.00</span></div>
+                                <div class="clearfix food-list"><div class="pull-left">Service</div><span class="pull-right">$ 100.00</span></div>
+                                <div class="clearfix food-list"><div class="pull-left">Service</div><span class="pull-right">$ 100.00</span></div>
+                                <div class="clearfix food-list"><div class="pull-left">Service</div><span class="pull-right">$ 100.00</span></div>
                             </div>
                         </div>
                     </div>
@@ -250,10 +250,10 @@
                         </div>
                         <div id="collapseFive" class="panel-collapse collapse" role="tabpanel">
                             <div class="panel-body">
-                                <div class="clearfix food-list"><div class="pull-left">Food Dish</div><span class="pull-right">$ 10.00</span></div>
-                                <div class="clearfix food-list"><div class="pull-left">Food Dish</div><span class="pull-right">$ 10.00</span></div>
-                                <div class="clearfix food-list"><div class="pull-left">Food Dish</div><span class="pull-right">$ 10.00</span></div>
-                                <div class="clearfix food-list"><div class="pull-left">Food Dish</div><span class="pull-right">$ 10.00</span></div>
+                                <div class="clearfix food-list"><div class="pull-left">Service</div><span class="pull-right">$ 100.00</span></div>
+                                <div class="clearfix food-list"><div class="pull-left">Service</div><span class="pull-right">$ 100.00</span></div>
+                                <div class="clearfix food-list"><div class="pull-left">Service</div><span class="pull-right">$ 100.00</span></div>
+                                <div class="clearfix food-list"><div class="pull-left">Service</div><span class="pull-right">$ 100.00</span></div>
                             </div>
                         </div>
                     </div>

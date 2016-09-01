@@ -1,6 +1,6 @@
 
 /* Image size must be 1103 X 1000 px with white on each side*/
-body {	color:#333;	font:300 15px/15px Roboto,Arial,Helvetica;background:url(../images/background.jpg) right repeat fixed #fff; -webkit-font-smoothing:antialiased;}
+body {	color:#333;	font:300 15px/15px Roboto,Arial,Helvetica; -webkit-font-smoothing:antialiased;}
 
 a{color:#00a9c6; text-decoration:none;}
 a:hover{color:#666;}
