@@ -1,0 +1,202 @@
+body{
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+header{
+    width: 100%;
+    background-image: url("../images/header.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%, 100%;
+}
+
+nav{
+    width: 100%;
+    padding: 43% 0 10% 0;
+    text-align: center;
+}
+
+nav a{
+    padding: 40px;
+    font-size: 1.6em;
+    font-weight: 300;
+    text-decoration: none;
+    color: white;
+    background: rgba(0,0,0,.4);
+    margin-right: 12px;
+    border-radius: 15px;
+}
+
+nav a:hover{
+    background: rgba(0,0,0,.8);
+    color: white;
+}
+
+
+
+
+
+
+/* main section */
+
+.banner{
+    width: 90%;
+    margin: 0 auto;
+    padding-bottom: 50px;
+}
+
+
+h1{
+    text-align: center;
+    margin-top: 50px;
+    font-weight: 300;
+    font-size: 600%;
+}
+
+
+
+
+#checkout{
+    text-align: center;
+    margin: 0 auto;
+}
+
+
+article{
+    width: 60%;
+    margin: 0 auto;
+    padding-top: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* footer */
+
+
+
+
+.footer{
+    font-size: 1em;
+    padding-top: 500px;
+}
+
+
+.footer a{
+    margin: 0 1em;
+}
+
+
+
+.copyright{
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* media queries */
+
+
+
+
+
+@media only screen and (min-width : 768px) and (max-width : 1800px) {
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 768px){
+
+
+
+    .banner{
+        padding-bottom: 12px;
+        width: 100%;
+    }
+
+
+
+
+    nav a{
+        padding: 12px;
+    }
+
+    .footer{margin-top: 2em;padding-bottom: 2em;}
+}
+
+
+
+
+
+
+
+
+
+

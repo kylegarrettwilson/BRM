@@ -1,0 +1,289 @@
+body{
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+header{
+    width: 100%;
+    background-image: url("../images/header.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%, 100%;
+}
+
+nav{
+    width: 100%;
+    padding: 43% 0 10% 0;
+    text-align: center;
+}
+
+nav a{
+    padding: 40px;
+    font-size: 1.6em;
+    font-weight: 300;
+    text-decoration: none;
+    color: white;
+    background: rgba(0,0,0,.4);
+    margin-right: 12px;
+    border-radius: 15px;
+}
+
+nav a:hover{
+    background: rgba(0,0,0,.8);
+    color: white;
+}
+
+
+.buffer>a{
+    padding: 20px;
+    font-size: 1.6em;
+    font-weight: 300;
+    text-decoration: none;
+    color: white;
+    background: rgba(0,0,0,.4);
+    margin-right: 12px;
+    border-radius: 15px;
+}
+
+.buffer>a:hover{
+    background: rgba(0,0,0,.8);
+    color: white;
+}
+
+
+
+section{
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+.buffer{
+    padding-bottom: 100px;
+}
+
+.buffer>a{
+    margin-top: 15px;
+}
+
+
+
+
+
+
+
+
+
+.footer{
+    font-size: 1em;
+    padding-top: 100px;
+}
+
+
+.footer a{
+    margin: 0 1em;
+}
+
+
+
+.copyright{
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 1500px){
+
+    .hov{
+        padding: 10px;
+        font-size: 80%;
+        margin-right: 20px;
+    }
+
+    .hav{
+        padding: 10px;
+        font-size: 80%;
+        white-space: nowrap;
+    }
+
+
+    .hav:hover{
+        opacity: 1;
+        -webkit-transition: opacity .10s ease-in-out 0s;
+        transition: opacity .10s ease-in-out 0s;
+        border-radius: 12px;
+        color: black;
+        background-color: rgba(144,144,144,.8);
+        text-decoration: underline;
+    }
+
+
+    .hov:hover{
+        opacity: 1;
+        -webkit-transition: opacity .10s ease-in-out 0s;
+        transition: opacity .10s ease-in-out 0s;
+        border-radius: 12px;
+        color: black;
+        background-color: rgba(144,144,144,.8);
+        text-decoration: underline;
+    }
+
+    .preview_1, .preview_2, .preview_3, .preview_4, .preview_5{
+        background-size: 80% 80%;
+        padding: 30%;
+    }
+
+    h1{
+        margin-left: 15%;
+        font-size: 3em;
+    }
+}
+
+
+
+
+
+@media (max-width: 1000px) and (min-width: 768px){
+
+
+
+    .hov{
+        opacity: 1;
+        padding: 10px;
+        font-size: 70%;
+    }
+
+    .hav{
+        opacity: 1;
+        padding: 10px;
+        font-size: 70%;
+        white-space: nowrap;
+    }
+
+
+
+    .hav:hover{
+        opacity: 1;
+        -webkit-transition: opacity .10s ease-in-out 0s;
+        transition: opacity .10s ease-in-out 0s;
+        border-radius: 12px;
+        color: black;
+        background-color: rgba(144,144,144,.8);
+        text-decoration: underline;
+    }
+
+
+    .hov:hover{
+        opacity: 1;
+        -webkit-transition: opacity .10s ease-in-out 0s;
+        transition: opacity .10s ease-in-out 0s;
+        border-radius: 12px;
+        color: black;
+        background-color: rgba(144,144,144,.8);
+        text-decoration: underline;
+    }
+
+
+
+    .preview_1, .preview_2, .preview_3, .preview_4, .preview_5{
+        background-size: 80% 80%;
+        padding: 27.5%;
+    }
+
+
+    nav a{
+        padding: 12px;
+    }
+
+
+
+
+}
+
+
+@media (max-width: 768px){
+
+
+
+
+
+    .hov{
+        opacity: 1;
+        padding: 3px 0 3px 0;
+        font-size: 70%;
+    }
+
+    .hav{
+        width: 1%;
+        padding: 3px 0 3px 0;
+        opacity: 1;
+        font-size: 70%;
+        white-space: nowrap;
+        margin-right: 16px;
+
+
+    }
+
+
+
+    .hav:hover{
+        opacity: 1;
+        -webkit-transition: opacity .10s ease-in-out 0s;
+        transition: opacity .10s ease-in-out 0s;
+        border-radius: 12px;
+        color: black;
+        background-color: rgba(144,144,144,.8);
+        text-decoration: underline;
+    }
+
+
+    .hov:hover{
+        opacity: 1;
+        -webkit-transition: opacity .10s ease-in-out 0s;
+        transition: opacity .10s ease-in-out 0s;
+        border-radius: 12px;
+        color: black;
+        background-color: rgba(144,144,144,.8);
+        text-decoration: underline;
+    }
+
+
+
+    .preview_1, .preview_2, .preview_3, .preview_4, .preview_5{
+        background-size: 100% 100%;
+        padding: 29%;
+        text-align: center;
+    }
+
+    h1{
+        font-size: 2.2em;
+        margin-left: 10px;
+    }
+
+
+    nav a{
+        padding: 12px;
+    }
+
+    .footer{margin-top: 2em;padding-bottom: 2em;}
+
+
+}
+
+
+
+
+
+
+
+
+
+
