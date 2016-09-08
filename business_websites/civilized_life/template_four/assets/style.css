@@ -22,21 +22,31 @@ p{font-size:1em;line-height: 1.7em; margin-bottom: 1.7em;}
 .btn-default{border:none;border-radius: 0;background: #5E9A18 !important;color:#fff !important;font-size: 0.85em;padding:0.5em 1em;}
 .btn-default:hover{background: #487712 !important;padding:0.5em 2em; }
 
-.container{width: 100%;max-width: 1600px;}
+.container{width: 100%;}
 
 .spacer{padding: 4em 0;}
 
 
 
-/*gallery*/
-.items-wrap .gallery-items{position:relative;margin-bottom: 2em;display: block;overflow: hidden;}
-.items-wrap .gallery-items:hover img{-webkit-transition: all 0.3s ease-in-out;-moz-transition: all 0.3s ease-in-out;-ms-transition: all 0.3s ease-in-out;-o-transition: all 0.3s ease-in-out;transition: all 0.3s ease-in-out;}
-.items-wrap .gallery-items .caption{position: absolute;top: 0;right: 0;left: 0; bottom: 0;background: rgba(0,0,0,0.8);text-align: center;opacity:0;color: #fff;}
-.items-wrap .gallery-items .caption h3{margin-top:-27%;margin-bottom: 1em;-webkit-transition: all 0.3s ease-in-out;-moz-transition: all 0.3s ease-in-out;-ms-transition: all 0.3s ease-in-out;-o-transition: all 0.3s ease-in-out;transition: all 0.3s ease-in-out;}
-.items-wrap .gallery-items .caption:hover h3{margin-top: 27%;}
-.items-wrap .gallery-items:hover .caption{opacity:1;-webkit-transition: all 0.3s ease-in-out;-moz-transition: all 0.3s ease-in-out;-ms-transition: all 0.3s ease-in-out;-o-transition: all 0.3s ease-in-out;transition: all 0.3s ease-in-out;}
-/*gallery*/
+#about, #team, #focus{
+	margin: 0 auto;
+	width: 80%;
+}
 
+#story p{
+	width: 60%;
+	margin: 0 auto;
+}
+
+#story{
+	padding-bottom: 50px;
+}
+
+
+
+.intro img{
+	margin-top: 300px;
+}
 
 
 
@@ -72,8 +82,8 @@ img{
 
 
 /*about*/
-.about{background: url(../images/banner.jpg);}
-.about .overlay{background:rgba(28, 30, 27, 0.9);color: #fff;}
+.about{background: url(../images/bottom_banner.jpg);}
+.about .overlay{background:rgba(28, 30, 27, 0.5);color: #fff;}
 .social a{color: #fff;margin: 0 0.5em;}
 
 /*about*/
@@ -97,5 +107,11 @@ img{
 @media (max-width: 767px) {
 	h1{padding: 4em 0 0 0;font-size: 2em;}
 	.spacer{padding: 2em 0;}
+
+	.trigger{
+		margin-left: -50px;
+	}
+
+
 
 }
