@@ -11,6 +11,7 @@
 
 <!-- font awesome -->
 <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="assets/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
 
 <!-- bootstrap -->
 <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css" />
@@ -36,9 +37,9 @@
       
        
 
-      <h1 class="logo"><a href="#home" class="scroll">Barons</a></h1>
+      <h1 class="logo"><a href="#home" class="scroll">We(b)Design</a></h1>
       <div class="menu">
-      <a href="#about" class="scroll">Menu</a>
+      <a href="#about" class="scroll">Services</a>
       <a href="#products" class="scroll">Gallery</a>
       <a href="#contact" class="scroll">Contact</a>      
       </div>
@@ -51,7 +52,7 @@
         <div class="item active"><img src="images/banner_1.jpg" class="img-responsive">
                <!-- caption -->
               <div class="caption">
-              <h2>Freshest Ingredients</h2>
+              <h2>Logo Design</h2>
               <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
               </p>   
               </div>
@@ -63,7 +64,7 @@
         <div class="item"><img src="images/banner_2.jpg" class="img-responsive">
                <!-- caption -->
               <div class="caption">
-              <h2>Stunning Plates</h2>
+              <h2>Stunning Websites</h2>
               <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
               </p>   
               </div>
@@ -75,7 +76,7 @@
         <div class="item"><img src="images/banner_3.jpg" class="img-responsive">
               <!-- caption -->
               <div class="caption">
-              <h2>Family Ready</h2>
+              <h2>Mobile Ready</h2>
               <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
               </p>   
               </div>
@@ -86,7 +87,7 @@
           <div class="item"><img src="images/banner_4.jpg" class="img-responsive">
               <!-- caption -->
               <div class="caption">
-                  <h2>Warm Atmosphere</h2>
+                  <h2>Professional Experience</h2>
                   <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
                   </p>
               </div>
@@ -118,7 +119,7 @@
         <div class="container top">
             <div class="row">
                 <div class="text-center">
-                    <h1>Fine Dining On A Budget</h1>
+                    <h1>Lets Us Create Your Website</h1>
                     <p>
                         Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
                         the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley
@@ -148,7 +149,7 @@
         <!-- food -->
         <div class="about" id="about">
           <div class="container">
-            <h2 class="text-center">Our Menu</h2>
+            <h2 class="text-center">Services</h2>
             <div class="row">
             <div class="col-md-6 col-xs-12 col-md-offset-3">
 
@@ -160,16 +161,16 @@
                         <div class="panel-heading" role="tab">
                             <h4 class="panel-title">
                                 <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                    <i class="fa fa-cutlery"></i> Breakfast
+                                    <i class="fa fa-file"></i> Graphic Design
                                 </a>
                             </h4>
                         </div>
                         <div id="collapseOne" class="panel-collapse collapse" role="tabpanel">
                             <div class="panel-body">
-                                <div class="clearfix food-list"><div class="pull-left">Food Dish</div><span class="pull-right">$ 10.00</span></div>
-                                <div class="clearfix food-list"><div class="pull-left">Food Dish</div><span class="pull-right">$ 10.00</span></div>
-                                <div class="clearfix food-list"><div class="pull-left">Food Dish</div><span class="pull-right">$ 10.00</span></div>
-                                <div class="clearfix food-list"><div class="pull-left">Food Dish</div><span class="pull-right">$ 10.00</span></div>
+                                <div class="clearfix food-list"><div class="pull-left">Service X</div><span class="pull-right"></span></div>
+                                <div class="clearfix food-list"><div class="pull-left">Service X</div><span class="pull-right"></span></div>
+                                <div class="clearfix food-list"><div class="pull-left">Service X</div><span class="pull-right"></span></div>
+                                <div class="clearfix food-list"><div class="pull-left">Service X</div><span class="pull-right"></span></div>
                             </div>
                         </div>
                     </div>
@@ -180,16 +181,16 @@
                         <div class="panel-heading" role="tab">
                             <h4 class="panel-title">
                                 <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                    <i class="fa fa-fire"></i> Lunch
+                                    <i class="fa fa-fire"></i> Web Design
                                 </a>
                             </h4>
                         </div>
                         <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel">
                             <div class="panel-body">
-                                <div class="clearfix food-list"><div class="pull-left">Food Dish</div><span class="pull-right">$ 10.00</span></div>
-                                <div class="clearfix food-list"><div class="pull-left">Food Dish</div><span class="pull-right">$ 10.00</span></div>
-                                <div class="clearfix food-list"><div class="pull-left">Food Dish</div><span class="pull-right">$ 10.00</span></div>
-                                <div class="clearfix food-list"><div class="pull-left">Food Dish</div><span class="pull-right">$ 10.00</span></div>
+                                <div class="clearfix food-list"><div class="pull-left">Service X</div><span class="pull-right"></span></div>
+                                <div class="clearfix food-list"><div class="pull-left">Service X</div><span class="pull-right"></span></div>
+                                <div class="clearfix food-list"><div class="pull-left">Service X</div><span class="pull-right"></span></div>
+                                <div class="clearfix food-list"><div class="pull-left">Service X</div><span class="pull-right"></span></div>
                             </div>
                         </div>
                     </div>
@@ -202,16 +203,16 @@
                         <div class="panel-heading" role="tab">
                             <h4 class="panel-title">
                                 <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                    <i class="fa fa-coffee"></i> Dinner
+                                    <i class="fa fa-coffee"></i> Professional Online Plans
                                 </a>
                             </h4>
                         </div>
                         <div id="collapseThree" class="panel-collapse collapse" role="tabpanel">
                             <div class="panel-body">
-                                <div class="clearfix food-list"><div class="pull-left">Food Dish</div><span class="pull-right">$ 10.00</span></div>
-                                <div class="clearfix food-list"><div class="pull-left">Food Dish</div><span class="pull-right">$ 10.00</span></div>
-                                <div class="clearfix food-list"><div class="pull-left">Food Dish</div><span class="pull-right">$ 10.00</span></div>
-                                <div class="clearfix food-list"><div class="pull-left">Food Dish</div><span class="pull-right">$ 10.00</span></div>
+                                <div class="clearfix food-list"><div class="pull-left">Service X</div><span class="pull-right"></span></div>
+                                <div class="clearfix food-list"><div class="pull-left">Service X</div><span class="pull-right"></span></div>
+                                <div class="clearfix food-list"><div class="pull-left">Service X</div><span class="pull-right"></span></div>
+                                <div class="clearfix food-list"><div class="pull-left">Service X</div><span class="pull-right"></span></div>
                             </div>
                         </div>
                     </div>
@@ -223,16 +224,16 @@
                         <div class="panel-heading" role="tab">
                             <h4 class="panel-title">
                                 <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                                    <i class="fa fa-money"></i> Beverages
+                                    <i class="fa fa-money"></i> Social Media Coaching
                                 </a>
                             </h4>
                         </div>
                         <div id="collapseFour" class="panel-collapse collapse" role="tabpanel">
                             <div class="panel-body">
-                                <div class="clearfix food-list"><div class="pull-left">Food Dish</div><span class="pull-right">$ 10.00</span></div>
-                                <div class="clearfix food-list"><div class="pull-left">Food Dish</div><span class="pull-right">$ 10.00</span></div>
-                                <div class="clearfix food-list"><div class="pull-left">Food Dish</div><span class="pull-right">$ 10.00</span></div>
-                                <div class="clearfix food-list"><div class="pull-left">Food Dish</div><span class="pull-right">$ 10.00</span></div>
+                                <div class="clearfix food-list"><div class="pull-left">Service X</div><span class="pull-right"></span></div>
+                                <div class="clearfix food-list"><div class="pull-left">Service X</div><span class="pull-right"></span></div>
+                                <div class="clearfix food-list"><div class="pull-left">Service X</div><span class="pull-right"></span></div>
+                                <div class="clearfix food-list"><div class="pull-left">Service X</div><span class="pull-right"></span></div>
                             </div>
                         </div>
                     </div>
@@ -244,16 +245,16 @@
                         <div class="panel-heading" role="tab">
                             <h4 class="panel-title">
                                 <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseFive" aria-expanded="false" aria-controls="collapseFour">
-                                    <i class="fa fa-flash"></i> Appetizers
+                                    <i class="fa fa-flash"></i> SEO
                                 </a>
                             </h4>
                         </div>
                         <div id="collapseFive" class="panel-collapse collapse" role="tabpanel">
                             <div class="panel-body">
-                                <div class="clearfix food-list"><div class="pull-left">Food Dish</div><span class="pull-right">$ 10.00</span></div>
-                                <div class="clearfix food-list"><div class="pull-left">Food Dish</div><span class="pull-right">$ 10.00</span></div>
-                                <div class="clearfix food-list"><div class="pull-left">Food Dish</div><span class="pull-right">$ 10.00</span></div>
-                                <div class="clearfix food-list"><div class="pull-left">Food Dish</div><span class="pull-right">$ 10.00</span></div>
+                                <div class="clearfix food-list"><div class="pull-left">Service X</div><span class="pull-right"></span></div>
+                                <div class="clearfix food-list"><div class="pull-left">Service X</div><span class="pull-right"></span></div>
+                                <div class="clearfix food-list"><div class="pull-left">Service X</div><span class="pull-right"></span></div>
+                                <div class="clearfix food-list"><div class="pull-left">Service X</div><span class="pull-right"></span></div>
                             </div>
                         </div>
                     </div>
@@ -281,7 +282,7 @@
 
        <!-- product list -->
        <div id="products">
-       <h2 class="text-center">Home Cooking</h2>
+       <h2 class="text-center">Previous Projects</h2>
         <div class="row-fluid gallery clearfix" id="portfolio">
 
 
@@ -292,7 +293,7 @@
                 <img src="images/photos/picture_1.jpg" class="img-responsive">
                 <div class="overlay">
                   <div class="ab-wrap"><div class="ab-center text-center">
-                    <h3>Relaxing</h3>
+                        <h3>Project X</h3>
                     <a href="images/photos/picture_1.jpg" title="Shoes" class="btn btn-default gallery-image" data-gallery="">View</a>
                   </div></div>
                 </div>
@@ -308,7 +309,7 @@
                 <img src="images/photos/picture_2.jpg" class="img-responsive">
                 <div class="overlay">
                   <div class="ab-wrap"><div class="ab-center text-center">
-                    <h3>Relaxing</h3>
+                          <h3>Project X</h3>
                     <a href="images/photos/picture_2.jpg" title="Formal" class="btn btn-default gallery-image" data-gallery="">View</a>
                   </div></div>
                 </div>
@@ -324,7 +325,7 @@
                 <img src="images/photos/picture_3.jpg" class="img-responsive">
                 <div class="overlay">
                   <div class="ab-wrap"><div class="ab-center text-center">
-                    <h3>Relaxing</h3>
+                          <h3>Project X</h3>
                     <a href="images/photos/picture_3.jpg" title="Red" class="btn btn-default gallery-image" data-gallery="">View</a>
                   </div></div>
                 </div>
@@ -340,7 +341,7 @@
                 <img src="images/photos/picture_4.jpg" class="img-responsive">
                 <div class="overlay">
                   <div class="ab-wrap"><div class="ab-center text-center">
-                    <h3>Relaxing</h3>
+                          <h3>Project X</h3>
                     <a href="images/photos/picture_4.jpg" title="Brown" class="btn btn-default gallery-image" data-gallery="">View</a>
                   </div></div>
                 </div>
@@ -356,7 +357,7 @@
                 <img src="images/photos/picture_5.jpg" class="img-responsive">
                 <div class="overlay">
                   <div class="ab-wrap"><div class="ab-center text-center">
-                    <h3>Relaxing</h3>
+                          <h3>Project X</h3>
                     <a href="images/photos/picture_5.jpg" title="Brown" class="btn btn-default gallery-image" data-gallery="">View</a>
                   </div></div>
                 </div>
@@ -371,7 +372,7 @@
                 <img src="images/photos/picture_6.jpg" class="img-responsive">
                 <div class="overlay">
                   <div class="ab-wrap"><div class="ab-center text-center">
-                    <h3>Relaxing</h3>
+                          <h3>Project X</h3>
                     <a href="images/photos/picture_6.jpg" title="Red" class="btn btn-default gallery-image" data-gallery="">View</a>
                   </div></div>
                 </div>
@@ -387,7 +388,7 @@
                 <img src="images/photos/picture_7.jpg" class="img-responsive">
                 <div class="overlay">
                   <div class="ab-wrap"><div class="ab-center text-center">
-                    <h3>Relaxing</h3>
+                          <h3>Project X</h3>
                     <a href="images/photos/picture_7.jpg" title="Shoes" class="btn btn-default gallery-image" data-gallery="">View</a>
                   </div></div>
                 </div>
@@ -403,7 +404,7 @@
                 <img src="images/photos/picture_8.jpg" class="img-responsive">
                 <div class="overlay">
                   <div class="ab-wrap"><div class="ab-center text-center">
-                    <h3>Relaxing</h3>
+                          <h3>Project X</h3>
                     <a href="images/photos/picture_8.jpg" title="Formal" class="btn btn-default gallery-image" data-gallery="">View</a>
                   </div></div>
                 </div>
@@ -436,7 +437,8 @@
                    <h2>Contact Us</h2>
                    <ul>
                        <li>516 High St Portland</li><br>
-                       <li>Phone: 1-541-788-7653</li>
+                       <li>Phone: 1-541-788-7653</li><br>
+                       <li>M-F 8 to 7</li>
                    </ul>
                </div>
            </div>
@@ -445,7 +447,7 @@
 
 
        <div class="container">
-       <h2 class="text-center">Reservations</h2>
+       <h2 class="text-center">Inquires</h2>
        <div class="row">
         <div class="col-sm-6 col-sm-offset-3">
             

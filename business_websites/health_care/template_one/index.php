@@ -41,8 +41,8 @@
         <div class="ab-center">
           <div class="wowload fadeInDown">
           <img src="images/logo.png" class="wowload rotateIn">
-          <h1 class="title">Vixen Studios</h1>
-          <p>An exciting new way to take professional pictures.</p>
+          <h1 class="title"></h1>
+          <p>Let Us Take Care Of You</p>
           </div>
         </div>
         </div>

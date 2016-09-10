@@ -11,6 +11,7 @@
 
 <!-- font awesome -->
 <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="assets/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
 
 <!-- bootstrap -->
 <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css" />
@@ -41,8 +42,8 @@
         <div class="ab-center">
           <div class="wowload fadeInDown">
           <img src="images/logo.png" class="wowload rotateIn">
-          <h1 class="title">Vixen Studios</h1>
-          <p>An exciting new way to take professional pictures.</p>
+          <h1 class="title">Little Ducklings Daycare</h1>
+          <p>A Home Away From Home</p>
           </div>
         </div>
         </div>
@@ -103,10 +104,10 @@
                             <div class="service-item">
                                     <span class="fa-stack fa-4x">
                                     <i class="fa fa-circle fa-stack-2x"></i>
-                                    <i class="fa fa-camera fa-stack-1x text-primary" style="color: rgb(224,224,224)"></i>
+                                    <i class="fa fa-soccer-ball-o fa-stack-1x text-primary" style="color: rgb(224,224,224)"></i>
                                 </span>
                                 <h4>
-                                    <strong>Mobile Shooting</strong>
+                                    <strong>Social Atmosphere</strong>
                                 </h4>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
                                 <button id="opener_1" href="#" class="btn btn-primary btn-lg active" role="button" aria-pressed="true" >Learn More</button>
@@ -135,7 +136,7 @@
                                     <i class="fa fa-briefcase fa-stack-1x text-primary" style="color: rgb(224,224,224)"></i>
                                 </span>
                                 <h4>
-                                    <strong>Business Photos</strong>
+                                    <strong>Flexible Hours</strong>
                                 </h4>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
                                 <button id="opener_2" href="#" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Learn More</button>
@@ -163,7 +164,7 @@
                                     <i class="fa fa-female fa-stack-1x text-primary" style="color: rgb(224,224,224)"></i>
                                 </span>
                                 <h4>
-                                    <strong>Portraits</strong>
+                                    <strong>Education</strong>
                                 </h4>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
                                 <button id="opener_3" href="#" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Learn More</button>
@@ -235,7 +236,7 @@
         <div class="portfolio">
           <div class="spacer">
             <div class="container">
-            <h2 class="text-center">Our Work</h2>
+            <h2 class="text-center">Gallery</h2>
             <div id="carousel-about" class="carousel slide wowload fadeInUp" data-ride="carousel">
             <div class="carousel-inner" role="listbox">
               <div class="item active"><img src="images/photos/picture_1.jpg" class="img-responsive"></div>
@@ -281,7 +282,7 @@
 
 
             <div class="container">
-                <h2 class="text-center">Inquiries</h2>
+                <h2 class="text-center">Have any questions?</h2>
                 <div class="row">
                     <div class="col-sm-6 col-sm-offset-3">
 
