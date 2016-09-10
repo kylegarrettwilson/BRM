@@ -4,13 +4,14 @@
 <meta charset="UTF-8" />
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-<title>Vixen Studios</title>
+<title>Bootstrap Roadmap</title>
 
 <!-- Google fonts -->
 <link href='http://fonts.googleapis.com/css?family=Raleway:400,800' rel='stylesheet' type='text/css'>
 
 <!-- font awesome -->
 <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="assets/font-awesome/css/font-awesome.min.css" rel="stylesheet">
 
 <!-- bootstrap -->
 <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css" />
