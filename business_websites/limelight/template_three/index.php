@@ -4,13 +4,14 @@
 <meta charset="UTF-8" />
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-<title>Vixen Studios</title>
+<title>Bootstrap Roadmap</title>
 
 <!-- Google fonts -->
 <link href='http://fonts.googleapis.com/css?family=Raleway:400,800' rel='stylesheet' type='text/css'>
 
 <!-- font awesome -->
 <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="assets/font-awesome/css/font-awesome.min.css" rel="stylesheet">
 
 <!-- bootstrap -->
 <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css" />
@@ -40,9 +41,11 @@
         <div class="ab-wrap">
         <div class="ab-center">
           <div class="wowload fadeInDown">
+              <!--
           <img src="images/logo.png" class="wowload rotateIn">
-          <h1 class="title">Vixen Studios</h1>
-          <p>An exciting new way to take professional pictures.</p>
+                -->
+          <h1 class="title">Pen Cap Chew</h1>
+          <p>Pick up our new album - Nevermind</p>
           </div>
         </div>
         </div>
@@ -106,20 +109,12 @@
                                     <i class="fa fa-camera fa-stack-1x text-primary" style="color: rgb(224,224,224)"></i>
                                 </span>
                                 <h4>
-                                    <strong>Mobile Shooting</strong>
+                                    <strong>Music Videos</strong>
                                 </h4>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                                <button id="opener_1" href="#" class="btn btn-primary btn-lg active" role="button" aria-pressed="true" >Learn More</button>
+                                <button  href="#" class="btn btn-primary btn-lg active" role="button" aria-pressed="true" >Check It Out</button>
                             </div>
 
-                            <div id="dialog_1">
-                                <p>
-                                    Quis, Contracts, Collections eget erat. Fusce et Litigation felis, eu varius lacus.
-                                    Ut vel finibus mi. Suspendisse et sollicitudin turpis. Sed id Patent Law lorem.
-                                    Vestibulum pellentesque erat eu nunceleifend, quis elementum leo varius.
-                                    Etiam cursus tristique leo id vulputate.
-                                </p>
-                            </div>
 
                         </div>
 
@@ -135,20 +130,12 @@
                                     <i class="fa fa-briefcase fa-stack-1x text-primary" style="color: rgb(224,224,224)"></i>
                                 </span>
                                 <h4>
-                                    <strong>Business Photos</strong>
+                                    <strong>Tour</strong>
                                 </h4>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                                <button id="opener_2" href="#" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Learn More</button>
+                                <button  href="#" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Check It Out</button>
                             </div>
 
-                            <div id="dialog_2">
-                                <p>
-                                    Quis, Contracts, Collections eget erat. Fusce et Litigation felis, eu varius lacus.
-                                    Ut vel finibus mi. Suspendisse et sollicitudin turpis. Sed id Patent Law lorem.
-                                    Vestibulum pellentesque erat eu nunceleifend, quis elementum leo varius.
-                                    Etiam cursus tristique leo id vulputate.
-                                </p>
-                            </div>
 
                         </div>
 
@@ -160,23 +147,15 @@
                             <div class="service-item">
                                     <span class="fa-stack fa-4x">
                                     <i class="fa fa-circle fa-stack-2x"></i>
-                                    <i class="fa fa-female fa-stack-1x text-primary" style="color: rgb(224,224,224)"></i>
+                                    <i class="fa fa-empire fa-stack-1x text-primary" style="color: rgb(224,224,224)"></i>
                                 </span>
                                 <h4>
-                                    <strong>Portraits</strong>
+                                    <strong>Gear</strong>
                                 </h4>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                                <button id="opener_3" href="#" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Learn More</button>
+                                <button  href="#" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Check It Out</button>
                             </div>
 
-                            <div id="dialog_3">
-                                <p>
-                                    Quis, Contracts, Collections eget erat. Fusce et Litigation felis, eu varius lacus.
-                                    Ut vel finibus mi. Suspendisse et sollicitudin turpis. Sed id Patent Law lorem.
-                                    Vestibulum pellentesque erat eu nunceleifend, quis elementum leo varius.
-                                    Etiam cursus tristique leo id vulputate.
-                                </p>
-                            </div>
 
                         </div>
 
@@ -191,20 +170,12 @@
                                     <i class="fa fa-money fa-stack-1x text-primary" style="color: rgb(224,224,224)"></i>
                                 </span>
                                 <h4>
-                                    <strong>Competitive Prices</strong>
+                                    <strong>Book Us</strong>
                                 </h4>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                                <button id="opener_4" href="#" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Learn More</button>
+                                <button href="#" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Check It Out</button>
                             </div>
 
-                            <div id="dialog_4">
-                                <p>
-                                    Quis, Contracts, Collections eget erat. Fusce et Litigation felis, eu varius lacus.
-                                    Ut vel finibus mi. Suspendisse et sollicitudin turpis. Sed id Patent Law lorem.
-                                    Vestibulum pellentesque erat eu nunceleifend, quis elementum leo varius.
-                                    Etiam cursus tristique leo id vulputate.
-                                </p>
-                            </div>
 
                         </div>
 
@@ -235,7 +206,7 @@
         <div class="portfolio">
           <div class="spacer">
             <div class="container">
-            <h2 class="text-center">Our Work</h2>
+            <h2 class="text-center">The Band</h2>
             <div id="carousel-about" class="carousel slide wowload fadeInUp" data-ride="carousel">
             <div class="carousel-inner" role="listbox">
               <div class="item active"><img src="images/photos/picture_1.jpg" class="img-responsive"></div>

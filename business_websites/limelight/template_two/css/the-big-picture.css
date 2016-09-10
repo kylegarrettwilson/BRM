@@ -71,10 +71,11 @@ body {
 
 
 
+.tour ul{
+    list-style-type: none;
+    padding-bottom: 30px;
 
-
-
-
+}
 
 
 
