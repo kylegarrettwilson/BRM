@@ -81,6 +81,9 @@ class FGContactForm
     var $twentyeight;
     var $twentynine;
     var $thirty;
+    var $thirtyone;
+    var $thirtytwo;
+    var $thirtythree;
 
     
     
@@ -398,6 +401,18 @@ class FGContactForm
     function GetThirty()
     {
         return htmlentities($this->thirty,ENT_QUOTES,"UTF-8");
+    }
+    function GetThirtyOne()
+    {
+        return htmlentities($this->thirtyone,ENT_QUOTES,"UTF-8");
+    }
+    function GetThirtyTwo()
+    {
+        return htmlentities($this->thirtytwo,ENT_QUOTES,"UTF-8");
+    }
+    function GetThirtyThree()
+    {
+        return htmlentities($this->thirtythree,ENT_QUOTES,"UTF-8");
     }
 
 
@@ -974,6 +989,9 @@ class FGContactForm
 
 
         $this->thirty = $this->StripSlashes($_POST['thirty']);
+        $this->thirtyone = $this->StripSlashes($_POST['thirtyone']);
+        $this->thirtytwo = $this->StripSlashes($_POST['thirtytwo']);
+        $this->thirtythree = $this->StripSlashes($_POST['thirtythree']);
 
     }
 
