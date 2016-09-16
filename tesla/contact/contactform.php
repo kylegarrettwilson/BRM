@@ -74,28 +74,27 @@ if(isset($_POST['submitted']))
 
 
 
-        <script>
+        <script type="application/javascript">
 
 
 
 
-            $( function() {
+            $(document).ready(function() {
 
 
 
 
                 $( "#accordion" ).accordion({
-                    heightStyle: "content"
+                    heightStyle: "content",
+                    header: "h3", collapsible: true, active: false
+
+
+
 
                 });
 
 
-
-
-
             } );
-
-
 
 
 
@@ -302,7 +301,7 @@ if(isset($_POST['submitted']))
             <div id="accordion">
 
 
-                    <h3>Your Objective(s) and Goals</h3>
+                    <h3 id="button">Your Objective(s) and Goals</h3>
 
 
 
@@ -355,7 +354,7 @@ if(isset($_POST['submitted']))
 
 
 
-                    <h3>Target Audience</h3>
+                    <h3 id="button">Target Audience</h3>
 
 
 
@@ -403,7 +402,7 @@ if(isset($_POST['submitted']))
 
 
 
-                    <h3>Design Choices</h3>
+                    <h3 id="button">Design Choices</h3>
 
 
 
@@ -478,7 +477,7 @@ if(isset($_POST['submitted']))
 
 
 
-                    <h3>Primary Action</h3>
+                    <h3 id="button">Primary Action</h3>
 
 
 
@@ -516,7 +515,7 @@ if(isset($_POST['submitted']))
 
 
 
-                    <h3>Content</h3>
+                    <h3 id="button">Content</h3>
 
 
 
@@ -572,7 +571,7 @@ if(isset($_POST['submitted']))
 
 
 
-                    <h3>Website Elements</h3>
+                    <h3 id="button">Website Elements</h3>
 
 
 
@@ -696,7 +695,7 @@ if(isset($_POST['submitted']))
 
 
 
-                    <h3>Closing Thoughts and Requests</h3>
+                    <h3 id="button">Closing Thoughts and Requests</h3>
 
 
 
