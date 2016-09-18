@@ -767,7 +767,7 @@ if(isset($_POST['submitted']))
                     </div>
 
 
-                    <h2><a href="https://www.dropbox.com/request/3wZhNyn8tdAy9s5VS00r" target="_blank">DropBox Uploads</a></h2>
+                    <h2><a href="#" target="_blank">DropBox Uploads</a></h2>
 
 
 
@@ -778,14 +778,14 @@ if(isset($_POST['submitted']))
 
 
 
-                    <!-- submit button -->
+                    <!-- submit button
 
 
                     
                     <div class='container button'>
                         <input type='submit' name='Submit' value='Submit' />
                     </div>
-            
+            -->
             
             
         </fieldset>

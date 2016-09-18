@@ -70,6 +70,10 @@ article{
     padding-top: 25px;
 }
 
+article p{
+    font-size: 1.2em;
+}
+
 #main{
     margin-bottom: 300px;
 }
