@@ -48,9 +48,11 @@ nav a:hover{
 
 h1{
     text-align: center;
-    margin-top: 50px;
+    padding-top: 50px;
     font-weight: 300;
     font-size: 400%;
+    width: 60%;
+    margin: 0 auto;
 }
 
 
@@ -67,6 +69,12 @@ article{
     padding-top: 25px;
     width: 60%;
     margin: 0 auto;
+    font-size: 1.2em;
+}
+
+article ul{
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 
