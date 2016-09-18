@@ -483,7 +483,7 @@ if(isset($_POST['submitted']))
                         <div class='container'>
                             <label for='message' >What is the primary action you wish a visitor to take from your new site? (eg: call, email, find address, explore gallery, etc.)</label><br/>
                             <span id='contactus_message_errorloc' class='error'></span>
-                            <textarea rows="10" cols="50" name='fourteen' id='fourteen'><?php echo $formproc->SafeDisplay('fourteen') ?></textarea>
+                            <textarea rows="10" cols="50" name='thirteen' id='thirteen'><?php echo $formproc->SafeDisplay('thirteen') ?></textarea>
                         </div>
 
 
@@ -519,14 +519,14 @@ if(isset($_POST['submitted']))
                         <div class='container'>
                             <label for='message' >Will this site use existing marketing content? (eg: art, photos, logo)</br> </br> If yes, please upload your files using the DropBox link provided below. We have included three upload links with this form, but if you have more than three uploads, we ask that you use the DropBox platform to share your files with BRM.</label><br/>
                             <span id='contactus_message_errorloc' class='error'></span>
-                            <textarea rows="10" cols="50" name='sixteen' id='sixteen'><?php echo $formproc->SafeDisplay('sixteen') ?></textarea>
+                            <textarea rows="10" cols="50" name='fourteen' id='fourteen'><?php echo $formproc->SafeDisplay('fourteen') ?></textarea>
                         </div>
 
 
                         <div class='container'>
                             <label for='message' >Are you comfortable with utilizing stock photos for your website? All stock photos that are incorporated by BRM on your site will be licensed for you at no extra charge.</label><br/>
                             <span id='contactus_message_errorloc' class='error'></span>
-                            <textarea rows="10" cols="50" name='seventeen' id='seventeen'><?php echo $formproc->SafeDisplay('seventeen') ?></textarea>
+                            <textarea rows="10" cols="50" name='fifteen' id='fifteen'><?php echo $formproc->SafeDisplay('fifteen') ?></textarea>
                         </div>
 
                     </div>
@@ -564,7 +564,7 @@ if(isset($_POST['submitted']))
                         <div class='container'>
                             <label for='message' >Provide the business description you would include in an "About Us" section:</label><br/>
                             <span id='contactus_message_errorloc' class='error'></span>
-                            <textarea rows="10" cols="50" name='eighteen' id='eighteen'><?php echo $formproc->SafeDisplay('eighteen') ?></textarea>
+                            <textarea rows="10" cols="50" name='sixteen' id='sixteen'><?php echo $formproc->SafeDisplay('sixteen') ?></textarea>
                         </div>
 
 
@@ -574,7 +574,7 @@ if(isset($_POST['submitted']))
                         <div class='container'>
                             <label for='message' >Provide each service and a short description of that service. Separate each service and description combination with a comma. </br> </br> (eg: Business Photos: short description, Dinner: short description, Routine Teeth Care: short description)</label><br/>
                             <span id='contactus_message_errorloc' class='error'></span>
-                            <textarea rows="10" cols="50" name='nineteen' id='nineteen'><?php echo $formproc->SafeDisplay('nineteen') ?></textarea>
+                            <textarea rows="10" cols="50" name='seventeen' id='seventeen'><?php echo $formproc->SafeDisplay('seventeen') ?></textarea>
                         </div>
 
 
@@ -587,7 +587,7 @@ if(isset($_POST['submitted']))
                             <label for='message' >Provide information to highlight each of your team members on your website (Full name, position, and a short description). </br> </br> If you would like social media links for each team member, please include the URLs associated with each team member's social media page. </br> </br> If you have
                             a picture of each member, please upload your files using the DropBox link provided below and include a file name that corresponds with the team member's name (eg: last name_first name).</label><br/>
                             <span id='contactus_message_errorloc' class='error'></span>
-                            <textarea rows="10" cols="50" name='twenty' id='twenty'><?php echo $formproc->SafeDisplay('twenty') ?></textarea>
+                            <textarea rows="10" cols="50" name='eighteen' id='eighteen'><?php echo $formproc->SafeDisplay('eighteen') ?></textarea>
                         </div>
 
                         </br>
@@ -598,7 +598,7 @@ if(isset($_POST['submitted']))
                             <label for='message' >Portfolio or previous work (Full name of work, short description, whatever else you want). This is also a great place for
                                 previous education or certificates that apply towards your business. If you have a picture of each work, please upload your files using the DropBox link provided below and include a file name that corresponds with the work's name.</label><br/>
                             <span id='contactus_message_errorloc' class='error'></span>
-                            <textarea rows="10" cols="50" name='twentyone' id='twentyone'><?php echo $formproc->SafeDisplay('twentyone') ?></textarea>
+                            <textarea rows="10" cols="50" name='nineteen' id='nineteen'><?php echo $formproc->SafeDisplay('nineteen') ?></textarea>
                         </div>
 
                         </br>
@@ -608,20 +608,20 @@ if(isset($_POST['submitted']))
 
                         <div class='container'>
                             <label for='name' >Hours of operation (eg: M-F 8 to 5):</label><br/>
-                            <input type='text' name='twentytwo' id='twentytwo' value='<?php echo $formproc->SafeDisplay('twentytwo') ?>' maxlength="50" /><br/>
+                            <input type='text' name='twenty' id='twenty' value='<?php echo $formproc->SafeDisplay('twenty') ?>' maxlength="50" /><br/>
                             <span id='contactus_name_errorloc' class='error'></span>
                         </div>
 
                         <div class='container'>
                             <label for='name' >Business email address:</label><br/>
-                            <input type='text' name='twentythree' id='twentythree' value='<?php echo $formproc->SafeDisplay('twentythree') ?>' maxlength="50" /><br/>
+                            <input type='text' name='twentyone' id='twentyone' value='<?php echo $formproc->SafeDisplay('twentyone') ?>' maxlength="50" /><br/>
                             <span id='contactus_name_errorloc' class='error'></span>
                         </div>
 
 
                         <div class='container'>
                             <label for='name' >Business phone number:</label><br/>
-                            <input type='text' name='twentyfour' id='twentyfour' value='<?php echo $formproc->SafeDisplay('twentyfour') ?>' maxlength="50" /><br/>
+                            <input type='text' name='twentytwo' id='twentytwo' value='<?php echo $formproc->SafeDisplay('twentytwo') ?>' maxlength="50" /><br/>
                             <span id='contactus_name_errorloc' class='error'></span>
                         </div>
 
@@ -632,7 +632,7 @@ if(isset($_POST['submitted']))
                         <div class='container'>
                             <label for='name' >Do you want a photo gallery? (We strongly suggest having a photo gallery to provide visual context of your work, even if it is stock photos) If you are going to provide photos for
                                 the gallery, please upload your files using the DropBox link provided below.</label><br/>
-                            <input type='text' name='twentyfive' id='twentyfive' value='<?php echo $formproc->SafeDisplay('twentyfive') ?>' maxlength="50" /><br/>
+                            <input type='text' name='twentythree' id='twentythree' value='<?php echo $formproc->SafeDisplay('twentythree') ?>' maxlength="50" /><br/>
                             <span id='contactus_name_errorloc' class='error'></span>
                         </div>
 
@@ -641,33 +641,33 @@ if(isset($_POST['submitted']))
                         <div class='container'>
                             <label for='message' >Social media accounts (please provide the name of the account and the URL):</label><br/>
                             <span id='contactus_message_errorloc' class='error'></span>
-                            <textarea rows="10" cols="50" name='twentysix' id='twentysix'><?php echo $formproc->SafeDisplay('twentysix') ?></textarea>
+                            <textarea rows="10" cols="50" name='twentyfour' id='twentyfour'><?php echo $formproc->SafeDisplay('twentyfour') ?></textarea>
                         </div>
 
 
                         <div class='container'>
                             <label for='message' >What are the focus areas of your business? (eg: organic, family care, business portraits)</label><br/>
                             <span id='contactus_message_errorloc' class='error'></span>
-                            <textarea rows="10" cols="50" name='twentyseven' id='twentyseven'><?php echo $formproc->SafeDisplay('twentyseven') ?></textarea>
+                            <textarea rows="10" cols="50" name='twentyfive' id='twentyfive'><?php echo $formproc->SafeDisplay('twentyfive') ?></textarea>
                         </div>
 
                         <div class='container'>
                             <label for='message' >Do you have customer reviews that you want to add? Please provide the names and quotes in the space below.</label><br/>
                             <span id='contactus_message_errorloc' class='error'></span>
-                            <textarea rows="10" cols="50" name='twentyeight' id='twentyeight'><?php echo $formproc->SafeDisplay('twentyeight') ?></textarea>
+                            <textarea rows="10" cols="50" name='twentysix' id='twentysix'><?php echo $formproc->SafeDisplay('twentysix') ?></textarea>
                         </div>
 
 
                         <div class='container'>
                             <label for='name' >Do you want a "contact us" form that sends customer inquiries to your business' email?</label><br/>
-                            <input type='text' name='twentynine' id='twentynine' value='<?php echo $formproc->SafeDisplay('twentynine') ?>' maxlength="50" /><br/>
+                            <input type='text' name='twentyseven' id='twentyseven' value='<?php echo $formproc->SafeDisplay('twentyseven') ?>' maxlength="50" /><br/>
                             <span id='contactus_name_errorloc' class='error'></span>
                         </div>
 
                         <div class='container'>
                             <label for='message' >If you had to boast about your company what would be some points you would share?</label><br/>
                             <span id='contactus_message_errorloc' class='error'></span>
-                            <textarea rows="10" cols="50" name='thirty' id='thirty'><?php echo $formproc->SafeDisplay('thirty') ?></textarea>
+                            <textarea rows="10" cols="50" name='twentyeight' id='twentyeight'><?php echo $formproc->SafeDisplay('twentyeight') ?></textarea>
                         </div>
 
                     </div>
@@ -702,7 +702,7 @@ if(isset($_POST['submitted']))
                         <div class='container'>
                             <label for='message' >Additional information you would like to share with Bootstrap Roadmap to aid in the content or design of your website:</label><br/>
                             <span id='contactus_message_errorloc' class='error'></span>
-                            <textarea rows="10" cols="50" name='thirtyone' id='thirtyone'><?php echo $formproc->SafeDisplay('thirtyone') ?></textarea>
+                            <textarea rows="10" cols="50" name='twentynine' id='twentynine'><?php echo $formproc->SafeDisplay('twentynine') ?></textarea>
                         </div>
 
 
@@ -745,7 +745,7 @@ if(isset($_POST['submitted']))
 
                     <h3>File Uploads</h3>
 
-                    <h4>File U</h4>
+                    <h4>*** Please use the upload buttons on this form if you only have one or two images to share with BRM. </br> If you intend on using more than two images and text documents on your website please use the DropBox link below.</h4>
 
 
                     <div class='container'>
