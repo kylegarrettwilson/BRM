@@ -40,11 +40,7 @@ nav a:hover{
 
 /* main section */
 
-.banner{
-    width: 90%;
-    margin: 0 auto;
-    padding-bottom: 50px;
-}
+
 
 
 h1{
@@ -64,26 +60,39 @@ h1{
 }
 
 
+#container{
+    width: 60%;
+    margin: 0 auto;
+    padding-top: 40px;
+
+}
+
 
 article{
+    width: 60%;
     margin: 0 auto;
-    width: 80%;
+    padding-top: 30px;
 }
+
+h2{
+    margin-bottom: 20px;
+
+}
+
+
+p{
+    font-size: 1.3em;
+}
+
+#accordion{
+    width: 80%;
+    margin: 0 auto;
+}
+
 
 h3{
-    margin-top: 50px;
-}
-
-h4{
-    text-align: center;
-    padding-bottom: 10px;
-    font-size: 1.4em;
-}
-
-
-li{
-    font-size: 1.3em;
-    padding-bottom: 5px;
+    height: 80px;
+    font-size: 2em !important;;
 }
 
 
@@ -99,54 +108,10 @@ li{
 
 
 
-#socialmedia{
-    width: 100%;
-    position: relative;
-    margin: 0 auto;
-}
 
 
 
-#facebook, #twitter, #google, #youtube{
-    display: none;
-    width: 23.5%;
-    float: left;
-    position: relative;
-    background-color: rgba(128, 128, 128, 0.2);
-    border-radius: 15px;
-    margin-right: 12px;
-    margin-top: 15px;
 
-
-}
-
-
-
-#facebook_button, #google_button, #twitter_button, #youtube_button{
-    margin-top: 20px;
-    float: left;
-    width: 23.5%;
-    padding: 40px;
-    font-weight: 500;
-    text-decoration: none;
-    background: rgba(28, 99, 187, 0.7);
-    margin-right: 12px;
-    border-radius: 15px;
-    color: black;
-
-
-}
-
-#facebook_button>h3, #google_button>h3, #twitter_button>h3, #youtube_button>h3{
-    font-size: 2em;
-}
-
-
-#facebook_button:hover, #google_button:hover, #twitter_button:hover, #youtube_button:hover{
-    background: rgba(0,0,0,.8);
-    color: white;
-
-}
 
 
 
@@ -165,7 +130,7 @@ li{
 
 .footer{
     font-size: 1em;
-    padding-top: 1200px;
+    padding-top: 200px;
 }
 
 
@@ -204,65 +169,60 @@ li{
 
 
 
-@media only screen and (max-width : 1000px){
+
+@media (max-width: 1000px) and (min-width: 768px){
 
     #header_img{
         height: 400px;
     }
 
-    #facebook, #twitter, #google, #youtube{
-        float: none;
-        clear: both;
-        width: 100%;
-        margin: 0 auto;
-        margin-top: 20px;
-        font-size: 1.3em;
-        padding-top: 20px;
-        padding-bottom: 20px;
+    nav a{
+        padding: 100px;
+        font-size: 3em;
+    }
+
+    article{
+        text-align: center;
+        width: 90%;
+    }
+
+    article h2{
+        font-size: 3.4em;
+    }
+
+    article p{
+        font-size: 3em;
     }
 
 
-    #facebook_button, #google_button, #twitter_button, #youtube_button{
-        width: 18%;
-        padding: 12px;
-        margin-bottom: 20px;
+}
+
+
+@media (max-width: 768px){
+
+
+    article{
+        text-align: center;
+        width: 90%;
     }
 
-    h3{
-        font-size: 1.3em;
+    nav a{
+        padding: 100px;
+        font-size: 3em;
     }
 
-    h1{
-        font-size: 500%;
-        margin-bottom: 50px;
+    article h2{
+        font-size: 3.4em;
     }
 
-    #facebook_button>h3, #google_button>h3, #twitter_button>h3, #youtube_button>h3{
-        font-size: 1.3em;
+    article p{
+        font-size: 3em;
     }
 
 
 
 }
 
-
-
-
-
-
-
-
-
-
-
-
-@media only screen and (min-width : 768px) and (max-width : 1800px) {
-
-
-
-
-
-}
 
 
 
@@ -280,89 +240,27 @@ li{
 
 @media (max-width: 768px){
 
-    #header_img{
-        height: 200px;
-    }
 
     h1{
         font-size: 400%;
     }
 
+    #header_img{
+        height: 200px;
+    }
 
 
-
-    .banner{
-        padding-bottom: 12px;
+    #container{
         width: 100%;
     }
 
-
-
-
-
-
-
-
-
-    #facebook, #twitter, #google, #youtube{
-        float: none;
-        clear: both;
+    #accordion{
         width: 100%;
-        margin: 0 auto;
-        margin-top: 15px;
-        font-size: 1em;
     }
 
-
-    #facebook_button, #google_button, #twitter_button, #youtube_button{
-        background: none;
-        float: none;
-        display: inline-block;
-        color: rgb(0, 128, 255);
+    article{
+        width: 80%;
     }
-
-    #facebook_button{
-        padding-right: 70px;
-    }
-
-
-    #facebook_button:hover, #google_button:hover, #twitter_button:hover, #youtube_button:hover{
-        background: none;
-        text-decoration: underline;
-        text-decoration: #28a4c9;
-        color: black;
-
-    }
-
-
-    #facebook_button>h3, #google_button>h3, #twitter_button>h3, #youtube_button>h3{
-        font-size: 1.2em;
-    }
-
-
-
-
-
-
-
-
-
-    h3{
-        margin-top: 12px;
-    }
-
-    p{
-        padding-bottom: 30px;
-    }
-
-
-
-
-
-
-
-
-
 
 
 

@@ -48,9 +48,11 @@ nav a:hover{
 
 h1{
     text-align: center;
-    margin-top: 50px;
+    padding-top: 50px;
     font-weight: 300;
     font-size: 400%;
+    width: 60%;
+    margin: 0 auto;
 }
 
 
@@ -67,6 +69,12 @@ article{
     padding-top: 25px;
     width: 60%;
     margin: 0 auto;
+    font-size: 1.2em;
+}
+
+article ul{
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 
@@ -142,54 +150,65 @@ article{
 
 
 
-@media only screen and (min-width : 768px) and (max-width : 1800px) {
-
-
-
-
-
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-@media (max-width: 768px){
-
-    .banner{
-        padding-bottom: 12px;
-        width: 100%;
-    }
+@media (max-width: 1000px) and (min-width: 768px){
 
 
 
     nav a{
-        padding: 12px;
+        padding: 100px;
+        font-size: 3em;
     }
 
-    footer img, .model-footer img{
-        width: 40px;
-        margin: 7px;
-
+    article{
+        text-align: center;
+        width: 90%;
     }
 
-    .footer{margin-top: 2em;padding-bottom: 2em;}
+    article h3{
+        font-size: 3.4em;
+    }
+
+    article p{
+        font-size: 3em;
+    }
+
+    article ul{
+        font-size: 3em;
+    }
+
+
 }
 
+
+@media (max-width: 768px){
+
+
+    article{
+        text-align: center;
+        width: 90%;
+    }
+
+    nav a{
+        padding: 100px;
+        font-size: 3em;
+    }
+
+    article h3{
+        font-size: 3.4em;
+    }
+
+    article p{
+        font-size: 3em;
+    }
+
+
+    article ul{
+        font-size: 3em;
+    }
+
+
+
+}
 
 
 

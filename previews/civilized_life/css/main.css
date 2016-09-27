@@ -146,6 +146,9 @@ section{
         margin-left: 15%;
         font-size: 3em;
     }
+
+
+
 }
 
 
@@ -155,45 +158,6 @@ section{
 @media (max-width: 1000px) and (min-width: 768px){
 
 
-
-    .hov{
-        opacity: 1;
-        padding: 10px;
-        font-size: 70%;
-    }
-
-    .hav{
-        opacity: 1;
-        padding: 10px;
-        font-size: 70%;
-        white-space: nowrap;
-    }
-
-
-
-    .hav:hover{
-        opacity: 1;
-        -webkit-transition: opacity .10s ease-in-out 0s;
-        transition: opacity .10s ease-in-out 0s;
-        border-radius: 12px;
-        color: black;
-        background-color: rgba(144,144,144,.8);
-        text-decoration: underline;
-    }
-
-
-    .hov:hover{
-        opacity: 1;
-        -webkit-transition: opacity .10s ease-in-out 0s;
-        transition: opacity .10s ease-in-out 0s;
-        border-radius: 12px;
-        color: black;
-        background-color: rgba(144,144,144,.8);
-        text-decoration: underline;
-    }
-
-
-
     .preview_1, .preview_2, .preview_3, .preview_4, .preview_5{
         background-size: 80% 80%;
         padding: 27.5%;
@@ -201,9 +165,22 @@ section{
 
 
     nav a{
-        padding: 12px;
+        padding: 100px;
+        font-size: 3em;
     }
 
+    .portfolio img{
+        width: 100%;
+    }
+
+
+    .btn{
+        width: 100%;
+    }
+
+    .portfolio a{
+        font-size: 3em;
+    }
 
 
 
@@ -214,47 +191,6 @@ section{
 
 
 
-
-
-    .hov{
-        opacity: 1;
-        padding: 3px 0 3px 0;
-        font-size: 70%;
-    }
-
-    .hav{
-        width: 1%;
-        padding: 3px 0 3px 0;
-        opacity: 1;
-        font-size: 70%;
-        white-space: nowrap;
-        margin-right: 16px;
-
-
-    }
-
-
-
-    .hav:hover{
-        opacity: 1;
-        -webkit-transition: opacity .10s ease-in-out 0s;
-        transition: opacity .10s ease-in-out 0s;
-        border-radius: 12px;
-        color: black;
-        background-color: rgba(144,144,144,.8);
-        text-decoration: underline;
-    }
-
-
-    .hov:hover{
-        opacity: 1;
-        -webkit-transition: opacity .10s ease-in-out 0s;
-        transition: opacity .10s ease-in-out 0s;
-        border-radius: 12px;
-        color: black;
-        background-color: rgba(144,144,144,.8);
-        text-decoration: underline;
-    }
 
 
 
@@ -271,14 +207,27 @@ section{
 
 
     nav a{
-        padding: 12px;
+        padding: 100px;
+        font-size: 3em;
     }
+
+    .row img{
+        width: 100%;
+    }
+
+    .btn{
+        width: 100%;
+    }
+
+    .portfolio a{
+        font-size: 3em;
+    }
+
 
     .footer{margin-top: 2em;padding-bottom: 2em;}
 
 
 }
-
 
 
 

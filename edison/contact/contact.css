@@ -59,9 +59,17 @@ stylesheet does not affect the other elements at all!
   border : 1px solid #999;
     -moz-border-radius: 5px;
     -webkit-border-radius: 5px;
-    -khtml-border-radius: 5px;
+    -html-border-radius: 5px;
     border-radius: 5px;
 
+}
+
+h3{
+    margin-top: 80px;
+    margin-bottom: 40px;
+    font-size: 3em;
+    font-weight: 100;
+    text-align: center;
 }
 
 

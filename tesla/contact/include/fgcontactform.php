@@ -73,17 +73,8 @@ class FGContactForm
     var $twenty;
     var $twentyone;
     var $twentytwo;
-    var $twentythree;
-    var $twentyfour;
-    var $twentyfive;
-    var $twentysix;
-    var $twentyseven;
-    var $twentyeight;
-    var $twentynine;
-    var $thirty;
-    var $thirtyone;
-    var $thirtytwo;
-    var $thirtythree;
+
+    
 
     
     
@@ -316,7 +307,7 @@ class FGContactForm
     }
     function GetNine()
     {
-        return htmlentities($this->nine,ENT_QUOTES,"UTF-8");
+        return $this->nine;
     }
     function GetTen()
     {
@@ -336,19 +327,19 @@ class FGContactForm
     }
     function GetFourteen()
     {
-        return htmlentities($this->fourteen,ENT_QUOTES,"UTF-8");
+        return $this->fourteen;
     }
     function GetFifteen()
     {
-        return htmlentities($this->fifteen,ENT_QUOTES,"UTF-8");
+        return $this->fifteen;
     }
     function GetSixteen()
     {
-        return htmlentities($this->sixteen,ENT_QUOTES,"UTF-8");
+        return $this->sixteen;
     }
     function GetSeventeen()
     {
-        return htmlentities($this->seventeen,ENT_QUOTES,"UTF-8");
+        return $this->seventeen;
     }
     function GetEighteen()
     {
@@ -364,67 +355,12 @@ class FGContactForm
     }
     function GetTwentyOne()
     {
-        return htmlentities($this->twentyone,ENT_QUOTES,"UTF-8");
+        return $this->twentyone;
     }
     function GetTwentyTwo()
     {
-        return $this->twentytwo;
+        return htmlentities($this->twentytwo,ENT_QUOTES,"UTF-8");
     }
-    function GetTwentyThree()
-    {
-        return $this->twentythree;
-    }
-    function GetTwentyFour()
-    {
-        return $this->twentyfour;
-    }
-    function GetTwentyFive()
-    {
-        return $this->twentyfive;
-    }
-    function GetTwentySix()
-    {
-        return htmlentities($this->twentysix,ENT_QUOTES,"UTF-8");
-    }
-    function GetTwentySeven()
-    {
-        return htmlentities($this->twentyseven,ENT_QUOTES,"UTF-8");
-    }
-    function GetTwentyEight()
-    {
-        return htmlentities($this->twentyeight,ENT_QUOTES,"UTF-8");
-    }
-    function GetTwentyNine()
-    {
-        return $this->twentynine;
-    }
-    function GetThirty()
-    {
-        return htmlentities($this->thirty,ENT_QUOTES,"UTF-8");
-    }
-    function GetThirtyOne()
-    {
-        return htmlentities($this->thirtyone,ENT_QUOTES,"UTF-8");
-    }
-    function GetThirtyTwo()
-    {
-        return htmlentities($this->thirtytwo,ENT_QUOTES,"UTF-8");
-    }
-    function GetThirtyThree()
-    {
-        return htmlentities($this->thirtythree,ENT_QUOTES,"UTF-8");
-    }
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -687,7 +623,7 @@ class FGContactForm
         //business name validations
         if(empty($_POST['businessname']))
         {
-            $this->add_error("Please provide your name");
+            $this->add_error("Please provide business name");
             $ret = false;
         }
         else
@@ -703,7 +639,7 @@ class FGContactForm
         //main contact validations
         if(empty($_POST['maincontact']))
         {
-            $this->add_error("Please provide your name");
+            $this->add_error("Please provide main contact name");
             $ret = false;
         }
         else
@@ -959,39 +895,40 @@ class FGContactForm
         $this->six = $this->StripSlashes($_POST['six']);
         $this->seven = $this->StripSlashes($_POST['seven']);
         $this->eight = $this->StripSlashes($_POST['eight']);
-        $this->nine = $this->StripSlashes($_POST['nine']);
+
+
+        $this->nine = $this->Sanitize($_POST['nine']);
+
+
         $this->ten = $this->StripSlashes($_POST['ten']);
         $this->eleven = $this->StripSlashes($_POST['eleven']);
         $this->twelve = $this->StripSlashes($_POST['twelve']);
         $this->thirteen = $this->StripSlashes($_POST['thirteen']);
-        $this->fourteen = $this->StripSlashes($_POST['fourteen']);
-        $this->fifteen = $this->StripSlashes($_POST['fifteen']);
-        $this->sixteen = $this->StripSlashes($_POST['sixteen']);
-        $this->seventeen = $this->StripSlashes($_POST['seventeen']);
+
+
+
+
+        $this->fourteen = $this->Sanitize($_POST['fourteen']);
+        $this->fifteen = $this->Sanitize($_POST['fifteen']);
+        $this->sixteen = $this->Sanitize($_POST['sixteen']);
+        $this->seventeen = $this->Sanitize($_POST['seventeen']);
+
+
+
+
         $this->eighteen = $this->StripSlashes($_POST['eighteen']);
         $this->nineteen = $this->StripSlashes($_POST['nineteen']);
         $this->twenty = $this->StripSlashes($_POST['twenty']);
-        $this->twentyone = $this->StripSlashes($_POST['twentyone']);
 
 
 
-        $this->twentytwo = $this->Sanitize($_POST['twentytwo']);
-        $this->twentythree = $this->Sanitize($_POST['twentythree']);
-        $this->twentyfour = $this->Sanitize($_POST['twentyfour']);
-        $this->twentyfive = $this->Sanitize($_POST['twentyfive']);
-
-        $this->twentysix = $this->StripSlashes($_POST['twentysix']);
-        $this->twentyseven = $this->StripSlashes($_POST['twentyseven']);
-        $this->twentyeight = $this->StripSlashes($_POST['twentyeight']);
+        $this->twentyone = $this->Sanitize($_POST['twentyone']);
 
 
-        $this->twentynine = $this->Sanitize($_POST['twentynine']);
+
+        $this->twentytwo = $this->StripSlashes($_POST['twentytwo']);
 
 
-        $this->thirty = $this->StripSlashes($_POST['thirty']);
-        $this->thirtyone = $this->StripSlashes($_POST['thirtyone']);
-        $this->thirtytwo = $this->StripSlashes($_POST['thirtytwo']);
-        $this->thirtythree = $this->StripSlashes($_POST['thirtythree']);
 
     }
 

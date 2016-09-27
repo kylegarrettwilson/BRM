@@ -172,7 +172,12 @@ h1{
 
 
 
-
+@media (max-width: 1000px) and (min-width: 768px){
+    nav a{
+        padding: 100px;
+        font-size: 3em;
+    }
+}
 
 
 
@@ -184,7 +189,8 @@ h1{
 @media (max-width: 768px){
 
     nav a{
-        padding: 12px;
+        padding: 100px;
+        font-size: 3em;
     }
 
     .footer{margin-top: 2em;padding-bottom: 2em;}

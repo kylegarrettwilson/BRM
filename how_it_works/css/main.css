@@ -98,8 +98,29 @@ h1{
 @media (max-width: 990px) and (min-width: 768px){
 
     #main{
-        width: 70%;
+        width: 100%;
 
+    }
+
+    nav a{
+        padding: 100px;
+        font-size: 3em;
+    }
+
+    article img{
+        width: 100%;
+    }
+
+    p{
+        font-size: 3em;
+        padding-bottom: 5px;
+        text-align: center;
+    }
+
+    h2{
+        font-size: 4em;
+        padding-top: 40px;
+        text-align: center;
     }
 
 
@@ -109,11 +130,24 @@ h1{
 @media (max-width: 768px){
 
     #main{
-        width: 80%;
+        width: 100%;
     }
 
+
+    nav a{
+        padding: 100px;
+        font-size: 3em;
+    }
+
+
+    article img{
+        width: 100%;
+    }
+
+
+
     p{
-        font-size: 1em;
+        font-size: 3em;
         padding-bottom: 5px;
         text-align: center;
     }

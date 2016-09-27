@@ -69,6 +69,16 @@ article{
     padding-top: 25px;
 }
 
+p{
+    font-size: 1.5em;
+}
+
+h3{
+    font-size: 1.8em;
+    margin-top: 50px;
+    padding-bottom: 20px;
+}
+
 
 
 
@@ -147,52 +157,56 @@ article{
 
 
 
-@media only screen and (min-width : 768px) and (max-width : 1800px) {
+@media (max-width: 1000px) and (min-width: 768px){
 
 
+
+    nav a{
+        padding: 100px;
+        font-size: 3em;
+    }
+
+    article{
+        text-align: center;
+        width: 90%;
+    }
+
+    article h3{
+        font-size: 3.4em;
+    }
+
+    article p{
+        font-size: 3em;
+    }
 
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 @media (max-width: 768px){
 
 
-
-    .banner{
-        padding-bottom: 12px;
-        width: 100%;
+    article{
+        text-align: center;
+        width: 90%;
     }
-
-
-
 
     nav a{
-        padding: 12px;
+        padding: 100px;
+        font-size: 3em;
     }
 
-    .footer{margin-top: 2em;padding-bottom: 2em;}
+    article h3{
+        font-size: 3.4em;
+    }
+
+    article p{
+        font-size: 3em;
+    }
+
+
+
 }
-
-
-
 
 
 

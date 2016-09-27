@@ -76,7 +76,9 @@ article{
 }
 
 
-
+article p{
+    font-size: 1.2em;
+}
 
 
 
@@ -157,53 +159,56 @@ article{
 
 
 
-@media only screen and (min-width : 768px) and (max-width : 1800px) {
+@media (max-width: 1000px) and (min-width: 768px){
 
 
 
+    nav a{
+        padding: 100px;
+        font-size: 3em;
+    }
+
+    article{
+        text-align: center;
+        width: 90%;
+    }
+
+    article h3{
+        font-size: 3.4em;
+    }
+
+    article p{
+        font-size: 3em;
+    }
 
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 @media (max-width: 768px){
 
-    .banner{
-        padding-bottom: 12px;
-        width: 100%;
-    }
 
+    article{
+        text-align: center;
+        width: 90%;
+    }
 
     nav a{
-        padding: 12px;
+        padding: 100px;
+        font-size: 3em;
     }
 
-    footer img, .model-footer img{
-        width: 40px;
-        margin: 7px;
-
+    article h3{
+        font-size: 3.4em;
     }
 
-    .footer{margin-top: 2em;padding-bottom: 2em;}
+    article p{
+        font-size: 3em;
+    }
+
+
+
 }
-
 
 
 
