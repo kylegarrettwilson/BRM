@@ -173,6 +173,7 @@ h3{
 @media (max-width: 1000px) and (min-width: 768px){
 
     #header_img{
+<<<<<<< HEAD
         height: 400px;
     }
 
@@ -192,6 +193,9 @@ h3{
 
     article p{
         font-size: 3em;
+=======
+         height: 400px;
+>>>>>>> origin/master
     }
 
 
@@ -215,6 +219,7 @@ h3{
         font-size: 3.4em;
     }
 
+<<<<<<< HEAD
     article p{
         font-size: 3em;
     }
@@ -228,6 +233,8 @@ h3{
 
 
 
+=======
+>>>>>>> origin/master
 
 
 

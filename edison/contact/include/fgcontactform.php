@@ -73,7 +73,17 @@ class FGContactForm
     var $twenty;
     var $twentyone;
     var $twentytwo;
+<<<<<<< HEAD
 
+=======
+    var $twentythree;
+    var $twentyfour;
+    var $twentyfive;
+    var $twentysix;
+    var $twentyseven;
+    var $twentyeight;
+    var $twentynine;
+>>>>>>> origin/master
     
 
     
@@ -351,7 +361,7 @@ class FGContactForm
     }
     function GetTwenty()
     {
-        return htmlentities($this->twenty,ENT_QUOTES,"UTF-8");
+        return $this->twenty;
     }
     function GetTwentyOne()
     {
@@ -359,8 +369,53 @@ class FGContactForm
     }
     function GetTwentyTwo()
     {
+<<<<<<< HEAD
         return htmlentities($this->twentytwo,ENT_QUOTES,"UTF-8");
     }
+=======
+        return $this->twentytwo;
+    }
+    function GetTwentyThree()
+    {
+        return $this->twentythree;
+    }
+    function GetTwentyFour()
+    {
+        return htmlentities($this->twentyfour,ENT_QUOTES,"UTF-8");
+    }
+    function GetTwentyFive()
+    {
+        return htmlentities($this->twentyfive,ENT_QUOTES,"UTF-8");
+    }
+    function GetTwentySix()
+    {
+        return htmlentities($this->twentysix,ENT_QUOTES,"UTF-8");
+    }
+    function GetTwentySeven()
+    {
+        return $this->twentyseven;
+    }
+    function GetTwentyEight()
+    {
+        return htmlentities($this->twentyeight,ENT_QUOTES,"UTF-8");
+    }
+    function GetTwentyNine()
+    {
+        return htmlentities($this->twentynine,ENT_QUOTES,"UTF-8");
+    }
+    
+
+
+
+
+
+
+
+
+
+
+
+>>>>>>> origin/master
 
 
 
@@ -918,15 +973,40 @@ class FGContactForm
 
         $this->eighteen = $this->StripSlashes($_POST['eighteen']);
         $this->nineteen = $this->StripSlashes($_POST['nineteen']);
+<<<<<<< HEAD
         $this->twenty = $this->StripSlashes($_POST['twenty']);
+=======
+>>>>>>> origin/master
 
 
+        
 
+<<<<<<< HEAD
         $this->twentyone = $this->Sanitize($_POST['twentyone']);
 
 
 
         $this->twentytwo = $this->StripSlashes($_POST['twentytwo']);
+=======
+        $this->twenty = $this->Sanitize($_POST['twenty']);
+        $this->twentyone = $this->Sanitize($_POST['twentyone']);
+        $this->twentytwo = $this->Sanitize($_POST['twentytwo']);
+        $this->twentythree = $this->Sanitize($_POST['twentythree']);
+
+
+
+
+        $this->twentyfour = $this->StripSlashes($_POST['twentyfour']);
+        $this->twentyfive = $this->StripSlashes($_POST['twentyfive']);
+        $this->twentysix = $this->StripSlashes($_POST['twentysix']);
+
+
+        $this->twentyseven = $this->Sanitize($_POST['twentyseven']);
+
+
+        $this->twentyeight = $this->StripSlashes($_POST['twentyeight']);
+        $this->twentynine = $this->StripSlashes($_POST['twentynine']);
+>>>>>>> origin/master
 
 
 
